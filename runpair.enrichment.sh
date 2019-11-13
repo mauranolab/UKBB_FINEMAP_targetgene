@@ -133,7 +133,7 @@ for value in ${sequence[@]};do
 
     echo -ne "$value\t${sig_metric}_${sig_cutoff}\t$targeting_method\t$snp_set\t$annotation_name\t$trait_class\t$trait_name\t" >> $outfile_txt
 
-    ../gsea.enrichment.R $all_genes_list $targeted_genes_subset $positive_control_gene_list >> $outfile_txt
+    ./gsea.enrichment.R $all_genes_list $targeted_genes_subset $positive_control_gene_list >> $outfile_txt
 
 done
 
