@@ -38,7 +38,5 @@ denominator<-set2_all/gene_universe_all
 outdf<-data.frame(in_both,set1_all,set2_all, gene_universe_all,
                   enrichment=numerator/denominator)
 
-#print(geneset_enrichment)
-
 write.table(outdf, file = "",append = T, quote = F,sep = "\t",row.names = F,col.names = F)
 
