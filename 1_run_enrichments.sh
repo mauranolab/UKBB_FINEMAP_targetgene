@@ -15,9 +15,11 @@ trait_name=$2           # String
 pc_gene_list=$3         # txt file. One column of gene IDs
 pc_gene_list_name=$4    # String
 all_genes=$5            # bed/starch file with gene ID in column 4
-outfile_txt=$6          # String
 sig_metric=$7           # String. Either "-log10_P-value" or "log10_Bayes_factor"
 snp_set=$8              # String. Either "All_SNPs", "DHS_SNPs", or "Trait-Specific_DHS_SNPs"
+
+mkdir -p "intermediate_files"
+outfile="intermediate_files/${trait_name}-${pc_gene_list_name}.${sig_metric}_${snp_set}.txt"
 
 MHC_coords_hg19="/vol/mauranolab/vulpen01/ukbb/src_data/gencodev24_hg19/MHC_coordinates.hg19.bed"
 MHC_genes_gencodev24="/vol/mauranolab/vulpen01/ukbb/src_data/positive_control_genes/src/MHC_genes.txt"
@@ -76,7 +78,7 @@ fi
 unstarch $all_genes | cut -f 4 | sort | uniq > $all_genes_list
 
 if [ -f $outfile_txt ];then rm $outfile_txt;fi
-echo -e "distance\tcutoff\ttargeting_method\tsnp_set\tannotation\ttrait\tTargeted_PositiveControl\tTargeted\tAll_PositiveControl\tAll\tenrichment" > $outfile_txt
+echo -e "distance\tcutoff\ttargeting_method\tsnp_set\tannotation\ttrait\tTargeted_PositiveControl\tTargeted\tAll_PositiveControl\tAll\tenrichment" > $outfile
 
 
 targeted_genes_subset=$TMPDIR/${trait_name}_${pc_gene_list_name}.targeted_genes_subset.txt
@@ -85,8 +87,8 @@ sequence=`seq 10000 10000 500000`
 
 for value in ${sequence[@]};do
     cat $targeted_genes | awk -F"\t" -v cutoff=$value '$2<=cutoff{print $1}' | sort | uniq > $targeted_genes_subset
-    echo -ne "$value\t${sig_metric}_${sig_cutoff}\t$targeting_method\t$snp_set\t$pc_gene_list_name\t$trait_name\t" >> $outfile_txt
-    ./gsea.enrichment.R $all_genes_list $targeted_genes_subset $pc_gene_list >> $outfile_txt
+    echo -ne "$value\t${sig_metric}_${sig_cutoff}\t$targeting_method\t$snp_set\t$pc_gene_list_name\t$trait_name\t" >> $outfile
+    ./gsea.enrichment.R $all_genes_list $targeted_genes_subset $pc_gene_list >> $outfile
 done
 
 
