@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-src_dir="intermediate_files_V3_2019may14"
+src_dir="intermediate_files"
 
 files_array=($(find $src_dir -name "*.txt" -not -path "*trash*"))
 
