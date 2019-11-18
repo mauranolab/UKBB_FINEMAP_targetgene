@@ -40,7 +40,7 @@ process_infile<-function(all_enrichments, pc_genes_key){
 	infile_df$Trait<-gsub("HEIGHTz","Height",infile_df$Trait)
 	infile_df$Trait<-gsub("LOW_TSH","Hypothyroidism",infile_df$Trait)
 	infile_df$Trait<-gsub("RED_COUNT","RBC Count",infile_df$Trait)
-	infile_df$Trait<-gsub("LDL_CHOLESTEROL","LDL\nCholesterol",infile_df$Trait)
+	infile_df$Trait<-gsub("LDL_CHOLESTEROL","LDL Cholesterol",infile_df$Trait)
 	infile_df$Trait<-gsub("TRIGLYCERIDES","Triglycerides",infile_df$Trait)
 	infile_df$Trait<-gsub("DBILIRUBIN","Bilirubin (D)",infile_df$Trait)
 	infile_df$Trait<-gsub("GLUCOSE","Glucose",infile_df$Trait)
@@ -88,7 +88,7 @@ colors[which(plot_df$Trait=="Height")]<-color_vec[5]
 colors[which(plot_df$Trait=="Hypothyroidism")]<-color_vec[6]
 colors[which(plot_df$Trait=="RBC Count")]<-color_vec[7]
 colors[which(plot_df$Trait=="Type 2 Diabetes")]<-color_vec[8]
-colors[which(plot_df$Trait=="LDL\nCholesterol")]<-color_vec[9]
+colors[which(plot_df$Trait=="LDL Cholesterol")]<-color_vec[9]
 colors[which(plot_df$Trait=="Triglycerides")]<-color_vec[10]
 colors[which(plot_df$Trait=="Glucose")]<-color_vec[11]
 
@@ -115,7 +115,7 @@ p<-ggplot(plot_df, aes(color = Trait,x = `Distance (Kbp)`, y = Enrichment)) +
 	scale_color_manual(name = "Trait", values = colors, aesthetics = c("colour"), guide=guide_legend(ncol=1)) +
 	coord_cartesian(xlim = c(0,250))
 
-pdf(paste0(outdir,"/absolute_distance_effect.minBF.pdf"), height = 4, width = 8)
+pdf(paste0(outdir,"/distance_effect.pdf"), height = 4, width = 8)
 p
 dev.off()
 
@@ -125,87 +125,7 @@ p<-p+geom_point(aes(text = paste0("# Targeted positive control genes: ",formatC(
 rm_traces<-1:nrow(unique(plot_df[,.(col_facet,targeting_method,gene_set)]))
 p<-style(p, hoverinfo = "none", traces=rm_traces)
 
-outfile<-paste0(outdir,"/absolute_distance_effect.minBF.html")
+outfile<-paste0(outdir,"/distance_effect.html")
 p_interactive <- ggplotly(p, dynamicTicks = T)
 htmlwidgets::saveWidget(widget=as_widget(p_interactive), file=outfile, selfcontained = F, title="Enrichment by distance", libdir = "html_dependencies")
 
-
-
-
-# ################################
-# # Relative distance effect
-#
-# # Ordering plot
-# trait_order<-c("Type 2 Diabetes",
-# 							 "Glucose",
-# 							 "Blood Pressure\n(Systolic)",
-# 							 "Blood Pressure\n(Diastolic)",
-# 							 "LDL\nCholesterol",
-# 							 "Triglycerides",
-# 							 "RBC Count",
-# 							 "eBMD",
-# 							 "Height",
-# 							 "Hypothyroidism",
-# 							 "Bilirubin (D)",
-# 							 "Bilirubin (T)",
-# 							 "Calcium")
-#
-# plot_df_selected<-plot_df
-#
-# plot_df_all<-process_infile("all_enrichments.db.txt","trait_genes_key.txt")
-#
-# plot_df_unselected<-setdiff(plot_df_all,plot_df_selected)
-#
-# plot_df_unselected$selected<-"unselected"
-# plot_df_selected$selected<-"selected"
-#
-# plot_df<-bind_rows(plot_df_unselected,plot_df_selected)
-#
-# plot_df$trait<-factor(plot_df$trait,levels = trait_order, ordered = T)
-#
-# max_p_df <- plot_df %>%
-# 	filter(cutoff == "P-value < 5e-8") %>%
-# 	group_by_(.dots = c("trait","gene_set")) %>%
-# 	summarize(max_p = max(enrichment)) %>%
-# 	select(trait,gene_set,max_p)
-#
-# plot_df<-right_join(max_p_df,plot_df)
-#
-# #head(plot_df)
-#
-# relative_df <- plot_df %>%
-# 	group_by_(.dots = c("trait","gene_set","cutoff","snp_set")) %>%
-# 	mutate(norm_enrichment = enrichment/max_p)
-#
-# #######
-# # Bayes factor
-# #######
-#
-# #plot_df<-relative_df[which(grepl("Bayes",relative_df$cutoff)),]
-#
-# write.table(plot_df[which(plot_df$distance==100000),], file = "", sep = "\t", quote = F, row.names = F)
-#
-# p<-ggplot(relative_df, aes(x = distance/1000, y = norm_enrichment, color = annotation)) +
-# 	geom_hline(yintercept = 1, color="grey", linetype = "dashed") +
-# 	geom_line(aes(linetype=selected)) +
-# 	scale_colour_manual(values = c("Disease + Drug"="#0072B2","Expression"="#E69F00"),guide=guide_legend(nrow=1)) +
-# 	theme(
-# 		text = element_text(size = 12),
-# 		strip.background = element_blank(),
-# 		#legend.box.margin = margin(c(0,0,0,0), unit = "mm"),
-# 		legend.text = element_text(size = 9, margin = margin(c(0,0.25,0,0.25), unit = "in")),
-# 		legend.position = "top",
-# 		legend.title = element_blank(),
-# 		strip.text.y = element_text(size = 8),
-# 		axis.text.x = element_text(angle = 45, hjust = 1),
-# 		aspect.ratio = 1
-# 	) +
-# 	facet_grid(cols = vars(col_facet), rows = vars(trait), scales = "free_y") +
-# 	labs(x="Distance (Kbp)", y = "Relative enrichment") +
-# 	coord_cartesian(xlim = c(0,250)) +
-# 	scale_y_continuous(expand=c(0,0)) +
-# 	guides(linetype=FALSE)
-#
-# pdf(paste0(outdir,"/relative_distance_effect.minBF.pdf"), height = 16, width = 6)
-# p
-# dev.off()
