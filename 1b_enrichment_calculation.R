@@ -3,40 +3,42 @@
 library(data.table)
 args<-commandArgs(trailingOnly = T)
 
-# Read in file paths
-gene_universe_file<-args[1]
-set1_file<-args[2]
-set2_file<-args[3]
+## Read in gene set files
+all_gencode_v24_file<-args[1] # Background set
+targeted_genes_file<-args[2]  # Targeted gene set
+pc_genes_file<-args[3]				# Positive control gene set
 
-gene_universe<-scan(file=gene_universe_file,what="character",na.strings = "NA",quiet = T)
-set1<-scan(file=set1_file,what="character",na.strings = "NA",quiet = T)
-set2<-scan(file=set2_file,what="character",na.strings = "NA",quiet = T)
-
-gene_universe<-na.omit(gene_universe)
-set1<-na.omit(set1)
-set2<-na.omit(set2)
-
-# Ensure there are no values in the sets that are not in the background set
-set1<-intersect(set1,gene_universe)
-set2<-intersect(set2,gene_universe)
-
-# Make enrichment calculations
-set1_all<-length(set1)
-set2_all<-length(set2)
-gene_universe_all<-length(gene_universe)
-
-in_both<-length(intersect(set1,set2))
+all_gencode_v24_genes<-scan(file=all_gencode_v24_file,what="character",na.strings = "NA",quiet = T)
+targeted_genes<-scan(file=targeted_genes_file,what="character",na.strings = "NA",quiet = T)
+pc_genes<-scan(file=pc_genes_file,what="character",na.strings = "NA",quiet = T)
 
 
-# numerator=proportion of set 1 that is in set 2
-numerator<-in_both/set1_all
+## Ensure there are no values in the sets that are not in the background set
+targeted_genes<-intersect(targeted_genes,all_gencode_v24_genes)
+pc_genes<-intersect(pc_genes,all_gencode_v24_genes)
 
-# denominator=poroportion of all genes that are in set 2
-denominator<-set2_all/gene_universe_all
+## Count genes in each group
+targeted_genes_count<-length(targeted_genes)
+pc_genes_count<-length(pc_genes)
+all_gencode_v24_genes_count<-length(all_gencode_v24_genes)
+
+targeted_pc_genes<-length(intersect(targeted_genes,pc_genes))
 
 
-outdf<-data.frame(in_both,set1_all,set2_all, gene_universe_all,
-                  enrichment=numerator/denominator)
+## numerator=proportion of targeted genes that are also positive control genes
+numerator<-targeted_pc_genes/targeted_genes_count
+
+## denominator=poroportion of all genes that are in positive control genes
+denominator<-pc_genes_count/all_gencode_v24_genes_count
+
+## Perform enrichment calculations
+enrichment=round(numerator/denominator,digits = 2)
+
+outdf<-data.frame(targeted_pc_genes,
+									targeted_genes_count,
+									pc_genes_count, 
+									all_gencode_v24_genes_count,
+                  enrichment)
 
 write.table(outdf, file = "",append = T, quote = F,sep = "\t",row.names = F,col.names = F)
 

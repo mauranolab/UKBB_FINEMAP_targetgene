@@ -10,85 +10,84 @@ alias bedmap='bedmap --ec --header --sweep-all'
 alias closest-features='closest-features --header'
 
 ## Parameters
-trait_snps=$1           # bed/starch file with -log10 p-val or log10 bf in column 5
+trait_snps=$1           # bed/starch file with p-val or log10 bf in column 5
+                        # trait_snps file should already be filtered to remove MHC and Missense SNPs
 trait_name=$2           # String
 sig_metric=$3           # String. Describes column 5 of "trait_snps". Either "-log10_P-value" or "log10_Bayes_factor"
 snp_set=$4              # String. Describes "trait_snps". Either "All_SNPs", "DHS_SNPs", or "Trait-Specific_DHS_SNPs"
 pc_gene_list=$5         # txt file. One column of gene IDs
 pc_gene_list_name=$6    # String.
-all_genes=$7            # bed/starch file with gene ID in column 4
+all_genes=$7            # bed/starch file with gene ID in column 4. Contains all genes in transcript model
+
 
 
 mkdir -p "intermediate_files"
-outfile="intermediate_files/${trait_name}-${pc_gene_list_name}.${sig_metric}_${snp_set}.txt"
-
-MHC_coords_hg19="/vol/mauranolab/vulpen01/ukbb/src_data/gencodev24_hg19/MHC_coordinates.hg19.bed"
-MHC_genes_gencodev24="/vol/mauranolab/vulpen01/ukbb/src_data/positive_control_genes/src/MHC_genes.txt"
-
-source targeting_methods.sh
-targeting_method="closest_gene" # see targeting_methods.sh
-
-
-all_genes_list=$TMPDIR/${trait_name}_${pc_gene_list_name}.all_genes_list.txt # 1 column: Gene name (tab delimited)
+outfile="intermediate_files/${trait_name}-${pc_gene_list_name}.${sig_metric}_${snp_set}.txt" # 11 columns (tab delimited)
+all_genes_list=$TMPDIR/${trait_name}_${pc_gene_list_name}.all_genes_list.txt # 1 column: Gene name
 targeted_genes=$TMPDIR/${trait_name}_${pc_gene_list_name}.targeted_genes.txt # 2 columns: Gene name, value (tab delimited)
-positive_control_genes_noMHC=$TMPDIR/${trait_name}_${pc_gene_list_name}.positive_control_genes.txt
 
 
+function target_genes {
+    snps=$1
+    genes=$2
 
-if [ $sig_metric == "-log10_P-value" ];then
-    sig_cutoff=7.30103
-    min=0
-    max=30
-fi
+    # Returns two columns: 1. gene name and 2. distance to nearest SNP
 
-if [ $sig_metric == "log10_Bayes_factor" ];then
-    sig_cutoff=2
-    min=-10
-    max=14
-fi
+    closest-features --closest --delim "\t" --dist $genes $snps | \
+    awk -F"\t" 'BEGIN{OFS="\t"}{print $1,$2,$3,$4,$NF}' | \
+    sort-bed - | uniq | \
+    awk -F"\t" 'function abs(v) {return v < 0 ? -v : v} BEGIN{OFS="\t"}{if($NF!="NA"){print $4,abs($NF)}}' | \
+    sort -nk2 | awk -F"\t" '!seen[$1]++'
+}
 
 
 # Pair each gene with the minimum distance to a significant SNP
-if [ $sig_metric == "-log10_P-value" ];then
-    bedops -n $trait_snps $MHC_coords_hg19 | \
+if [ $sig_metric == "P-value" ];then
+    sig_cutoff=7.30103
+    max=30
+
+    unstarch $trait_snps | \
+    grep -v "#" | \
     awk -F"\t" -v max=$max 'BEGIN{OFS="\t"}{
         log10p=-log($5)/log(10); 
-        if(log10p!="inf"){
-            print $1,$2,$3,$4, log10p
-        }else{print $1,$2,$3,$4,max}}' | \
+        if(log10p=="inf"){log10p=max}
+        print $1,$2,$3,$4, log10p
+    }' | \
     awk -F"\t" -v sig_cutoff=$sig_cutoff '$5>=sig_cutoff' | \
-    target_genes $targeting_method - $all_genes | \
-    awk -F"\t" 'function abs(v) {return v < 0 ? -v : v} BEGIN{OFS="\t"}{if($NF!="NA"){print $4,abs($NF)}}' | \
-    sort -nk2 | awk -F"\t" '!seen[$1]++' > $targeted_genes 
-else
-    bedops -n $trait_snps $MHC_coords_hg19 | \
+    target_genes - $all_genes > $targeted_genes 
+
+    sig_metric="-log10_P-value"
+
+elif [ $sig_metric == "log10_Bayes_factor" ];then
+    sig_cutoff=2
+    min=-10
+
+    unstarch $trait_snps | \
+    grep -v "#" | \
     awk -F"\t" -v min=$min 'BEGIN{OFS="\t"}{
         if($5=="-Inf"){$5=min};
         print $1,$2,$3,$4,$5
     }' | \
     awk -F"\t" -v sig_cutoff=$sig_cutoff '$5>=sig_cutoff' | \
-    target_genes $targeting_method - $all_genes | \
-    awk -F"\t" 'function abs(v) {return v < 0 ? -v : v} BEGIN{OFS="\t"}{if($NF!="NA"){print $4,abs($NF)}}' | \
-    sort -nk2 | awk -F"\t" '!seen[$1]++' > $targeted_genes  
+    target_genes - $all_genes > $targeted_genes  
+else
+    echo -e "\nERROR: Invalid significance metric. Exiting script."
+    exit 1
 fi
-
 
 
 
 # Make input to enrichment script
 unstarch $all_genes | cut -f 4 | sort | uniq > $all_genes_list
 
-if [ -f $outfile_txt ];then rm $outfile_txt;fi
-echo -e "distance\tcutoff\ttargeting_method\tsnp_set\tannotation\ttrait\tTargeted_PositiveControl\tTargeted\tAll_PositiveControl\tAll\tenrichment" > $outfile
-
+echo -e "distance\tcutoff\ttargeting_method\tsnp_set\tgene_set\tTrait\tTargeted_PositiveControl\tTargeted\tAll_PositiveControl\tAll\tEnrichment" > $outfile
 
 targeted_genes_subset=$TMPDIR/${trait_name}_${pc_gene_list_name}.targeted_genes_subset.txt
 
-sequence=`seq 10000 10000 500000`
-
-for value in ${sequence[@]};do
-    cat $targeted_genes | awk -F"\t" -v cutoff=$value '$2<=cutoff{print $1}' | sort | uniq > $targeted_genes_subset
-    echo -ne "$value\t${sig_metric}_${sig_cutoff}\t$targeting_method\t$snp_set\t$pc_gene_list_name\t$trait_name\t" >> $outfile
+distance_sequence=`seq 10000 10000 500000`
+for distance in ${distance_sequence[@]};do
+    cat $targeted_genes | awk -F"\t" -v cutoff=$distance '$2<=cutoff{print $1}' | sort | uniq > $targeted_genes_subset
+    echo -ne "$distance\t${sig_metric}_${sig_cutoff}\tclosest_gene\t$snp_set\t$pc_gene_list_name\t$trait_name\t" >> $outfile
     ./1b_enrichment_calculation.R $all_genes_list $targeted_genes_subset $pc_gene_list >> $outfile
 done
 

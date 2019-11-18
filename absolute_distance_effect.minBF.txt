@@ -1,401 +1,401 @@
 trait	distance	cutoff	snp_set	Targeted_PositiveControl	enrichment	gene_set
-Glucose	10000	P-value < 5e-8	All SNPs	35	3.48	Expression
-Glucose	20000	P-value < 5e-8	All SNPs	40	3.46	Expression
-Glucose	30000	P-value < 5e-8	All SNPs	40	3.1	Expression
-Glucose	40000	P-value < 5e-8	All SNPs	42	2.97	Expression
-Glucose	50000	P-value < 5e-8	All SNPs	45	2.95	Expression
-Glucose	60000	P-value < 5e-8	All SNPs	45	2.7	Expression
-Glucose	70000	P-value < 5e-8	All SNPs	46	2.57	Expression
-Glucose	80000	P-value < 5e-8	All SNPs	49	2.58	Expression
-Glucose	90000	P-value < 5e-8	All SNPs	49	2.45	Expression
-Glucose	100000	P-value < 5e-8	All SNPs	50	2.38	Expression
-Glucose	110000	P-value < 5e-8	All SNPs	51	2.36	Expression
-Glucose	120000	P-value < 5e-8	All SNPs	51	2.28	Expression
-Glucose	130000	P-value < 5e-8	All SNPs	52	2.22	Expression
-Glucose	140000	P-value < 5e-8	All SNPs	52	2.12	Expression
-Glucose	150000	P-value < 5e-8	All SNPs	54	2.1	Expression
-Glucose	160000	P-value < 5e-8	All SNPs	56	2.09	Expression
-Glucose	170000	P-value < 5e-8	All SNPs	58	2.08	Expression
-Glucose	180000	P-value < 5e-8	All SNPs	58	2.02	Expression
-Glucose	190000	P-value < 5e-8	All SNPs	59	1.99	Expression
-Glucose	200000	P-value < 5e-8	All SNPs	61	1.99	Expression
-Glucose	210000	P-value < 5e-8	All SNPs	61	1.94	Expression
-Glucose	220000	P-value < 5e-8	All SNPs	64	1.96	Expression
-Glucose	230000	P-value < 5e-8	All SNPs	64	1.91	Expression
-Glucose	240000	P-value < 5e-8	All SNPs	65	1.87	Expression
-Glucose	250000	P-value < 5e-8	All SNPs	68	1.9	Expression
-Glucose	260000	P-value < 5e-8	All SNPs	69	1.88	Expression
-Glucose	270000	P-value < 5e-8	All SNPs	70	1.84	Expression
-Glucose	280000	P-value < 5e-8	All SNPs	71	1.83	Expression
-Glucose	290000	P-value < 5e-8	All SNPs	72	1.81	Expression
-Glucose	300000	P-value < 5e-8	All SNPs	74	1.8	Expression
-Glucose	310000	P-value < 5e-8	All SNPs	75	1.8	Expression
-Glucose	320000	P-value < 5e-8	All SNPs	79	1.84	Expression
-Glucose	330000	P-value < 5e-8	All SNPs	79	1.79	Expression
-Glucose	340000	P-value < 5e-8	All SNPs	80	1.77	Expression
-Glucose	350000	P-value < 5e-8	All SNPs	81	1.76	Expression
-Glucose	360000	P-value < 5e-8	All SNPs	83	1.76	Expression
-Glucose	370000	P-value < 5e-8	All SNPs	85	1.76	Expression
-Glucose	380000	P-value < 5e-8	All SNPs	85	1.73	Expression
-Glucose	390000	P-value < 5e-8	All SNPs	88	1.76	Expression
-Glucose	400000	P-value < 5e-8	All SNPs	90	1.77	Expression
-Glucose	410000	P-value < 5e-8	All SNPs	92	1.78	Expression
-Glucose	420000	P-value < 5e-8	All SNPs	93	1.75	Expression
-Glucose	430000	P-value < 5e-8	All SNPs	93	1.72	Expression
-Glucose	440000	P-value < 5e-8	All SNPs	96	1.74	Expression
-Glucose	450000	P-value < 5e-8	All SNPs	96	1.72	Expression
-Glucose	460000	P-value < 5e-8	All SNPs	96	1.69	Expression
-Glucose	470000	P-value < 5e-8	All SNPs	96	1.66	Expression
-Glucose	480000	P-value < 5e-8	All SNPs	97	1.65	Expression
-Glucose	490000	P-value < 5e-8	All SNPs	97	1.62	Expression
-Glucose	500000	P-value < 5e-8	All SNPs	97	1.61	Expression
-Glucose	10000	log10 BF > 2	DHS SNPs	16	5.84	Expression
-Glucose	20000	log10 BF > 2	DHS SNPs	26	5.73	Expression
-Glucose	30000	log10 BF > 2	DHS SNPs	29	5.03	Expression
-Glucose	40000	log10 BF > 2	DHS SNPs	32	4.67	Expression
-Glucose	50000	log10 BF > 2	DHS SNPs	36	4.31	Expression
-Glucose	60000	log10 BF > 2	DHS SNPs	37	3.88	Expression
-Glucose	70000	log10 BF > 2	DHS SNPs	37	3.41	Expression
-Glucose	80000	log10 BF > 2	DHS SNPs	38	3.14	Expression
-Glucose	90000	log10 BF > 2	DHS SNPs	38	2.95	Expression
-Glucose	100000	log10 BF > 2	DHS SNPs	39	2.83	Expression
-Glucose	110000	log10 BF > 2	DHS SNPs	41	2.74	Expression
-Glucose	120000	log10 BF > 2	DHS SNPs	42	2.69	Expression
-Glucose	130000	log10 BF > 2	DHS SNPs	42	2.53	Expression
-Glucose	140000	log10 BF > 2	DHS SNPs	42	2.37	Expression
-Glucose	150000	log10 BF > 2	DHS SNPs	43	2.32	Expression
-Glucose	160000	log10 BF > 2	DHS SNPs	44	2.29	Expression
-Glucose	170000	log10 BF > 2	DHS SNPs	46	2.27	Expression
-Glucose	180000	log10 BF > 2	DHS SNPs	47	2.24	Expression
-Glucose	190000	log10 BF > 2	DHS SNPs	47	2.15	Expression
-Glucose	200000	log10 BF > 2	DHS SNPs	47	2.09	Expression
-Glucose	210000	log10 BF > 2	DHS SNPs	49	2.13	Expression
-Glucose	220000	log10 BF > 2	DHS SNPs	50	2.08	Expression
-Glucose	230000	log10 BF > 2	DHS SNPs	51	2.06	Expression
-Glucose	240000	log10 BF > 2	DHS SNPs	53	2.07	Expression
-Glucose	250000	log10 BF > 2	DHS SNPs	55	2.05	Expression
-Glucose	260000	log10 BF > 2	DHS SNPs	56	2.03	Expression
-Glucose	270000	log10 BF > 2	DHS SNPs	56	1.97	Expression
-Glucose	280000	log10 BF > 2	DHS SNPs	56	1.93	Expression
-Glucose	290000	log10 BF > 2	DHS SNPs	56	1.87	Expression
-Glucose	300000	log10 BF > 2	DHS SNPs	56	1.83	Expression
-Glucose	310000	log10 BF > 2	DHS SNPs	56	1.79	Expression
-Glucose	320000	log10 BF > 2	DHS SNPs	59	1.84	Expression
-Glucose	330000	log10 BF > 2	DHS SNPs	59	1.78	Expression
-Glucose	340000	log10 BF > 2	DHS SNPs	60	1.77	Expression
-Glucose	350000	log10 BF > 2	DHS SNPs	60	1.73	Expression
-Glucose	360000	log10 BF > 2	DHS SNPs	62	1.75	Expression
-Glucose	370000	log10 BF > 2	DHS SNPs	62	1.72	Expression
-Glucose	380000	log10 BF > 2	DHS SNPs	63	1.72	Expression
-Glucose	390000	log10 BF > 2	DHS SNPs	64	1.71	Expression
-Glucose	400000	log10 BF > 2	DHS SNPs	64	1.68	Expression
-Glucose	410000	log10 BF > 2	DHS SNPs	67	1.72	Expression
-Glucose	420000	log10 BF > 2	DHS SNPs	69	1.74	Expression
-Glucose	430000	log10 BF > 2	DHS SNPs	69	1.7	Expression
-Glucose	440000	log10 BF > 2	DHS SNPs	69	1.67	Expression
-Glucose	450000	log10 BF > 2	DHS SNPs	72	1.71	Expression
-Glucose	460000	log10 BF > 2	DHS SNPs	72	1.68	Expression
-Glucose	470000	log10 BF > 2	DHS SNPs	74	1.69	Expression
-Glucose	480000	log10 BF > 2	DHS SNPs	74	1.66	Expression
-Glucose	490000	log10 BF > 2	DHS SNPs	74	1.64	Expression
-Glucose	500000	log10 BF > 2	DHS SNPs	74	1.62	Expression
-Glucose	10000	log10 BF > 2	DHS SNPs (Trait-Specific)	6	6.66	Expression
-Glucose	20000	log10 BF > 2	DHS SNPs (Trait-Specific)	10	6.45	Expression
-Glucose	30000	log10 BF > 2	DHS SNPs (Trait-Specific)	14	6.59	Expression
-Glucose	40000	log10 BF > 2	DHS SNPs (Trait-Specific)	17	6.46	Expression
-Glucose	50000	log10 BF > 2	DHS SNPs (Trait-Specific)	20	6.94	Expression
-Glucose	60000	log10 BF > 2	DHS SNPs (Trait-Specific)	20	6.03	Expression
-Glucose	70000	log10 BF > 2	DHS SNPs (Trait-Specific)	22	5.6	Expression
-Glucose	80000	log10 BF > 2	DHS SNPs (Trait-Specific)	22	5.09	Expression
-Glucose	90000	log10 BF > 2	DHS SNPs (Trait-Specific)	22	4.66	Expression
-Glucose	100000	log10 BF > 2	DHS SNPs (Trait-Specific)	24	4.63	Expression
-Glucose	110000	log10 BF > 2	DHS SNPs (Trait-Specific)	27	4.71	Expression
-Glucose	120000	log10 BF > 2	DHS SNPs (Trait-Specific)	27	4.51	Expression
-Glucose	130000	log10 BF > 2	DHS SNPs (Trait-Specific)	27	4.28	Expression
-Glucose	140000	log10 BF > 2	DHS SNPs (Trait-Specific)	27	3.99	Expression
-Glucose	150000	log10 BF > 2	DHS SNPs (Trait-Specific)	28	3.94	Expression
-Glucose	160000	log10 BF > 2	DHS SNPs (Trait-Specific)	29	3.89	Expression
-Glucose	170000	log10 BF > 2	DHS SNPs (Trait-Specific)	30	3.85	Expression
-Glucose	180000	log10 BF > 2	DHS SNPs (Trait-Specific)	31	3.86	Expression
-Glucose	190000	log10 BF > 2	DHS SNPs (Trait-Specific)	31	3.6	Expression
-Glucose	200000	log10 BF > 2	DHS SNPs (Trait-Specific)	31	3.44	Expression
-Glucose	210000	log10 BF > 2	DHS SNPs (Trait-Specific)	32	3.43	Expression
-Glucose	220000	log10 BF > 2	DHS SNPs (Trait-Specific)	32	3.23	Expression
-Glucose	230000	log10 BF > 2	DHS SNPs (Trait-Specific)	33	3.2	Expression
-Glucose	240000	log10 BF > 2	DHS SNPs (Trait-Specific)	34	3.17	Expression
-Glucose	250000	log10 BF > 2	DHS SNPs (Trait-Specific)	35	3.08	Expression
-Glucose	260000	log10 BF > 2	DHS SNPs (Trait-Specific)	36	3.08	Expression
-Glucose	270000	log10 BF > 2	DHS SNPs (Trait-Specific)	36	2.97	Expression
-Glucose	280000	log10 BF > 2	DHS SNPs (Trait-Specific)	37	2.93	Expression
-Glucose	290000	log10 BF > 2	DHS SNPs (Trait-Specific)	37	2.88	Expression
-Glucose	300000	log10 BF > 2	DHS SNPs (Trait-Specific)	37	2.81	Expression
-Glucose	310000	log10 BF > 2	DHS SNPs (Trait-Specific)	37	2.72	Expression
-Glucose	320000	log10 BF > 2	DHS SNPs (Trait-Specific)	37	2.65	Expression
-Glucose	330000	log10 BF > 2	DHS SNPs (Trait-Specific)	39	2.67	Expression
-Glucose	340000	log10 BF > 2	DHS SNPs (Trait-Specific)	41	2.74	Expression
-Glucose	350000	log10 BF > 2	DHS SNPs (Trait-Specific)	41	2.63	Expression
-Glucose	360000	log10 BF > 2	DHS SNPs (Trait-Specific)	42	2.63	Expression
-Glucose	370000	log10 BF > 2	DHS SNPs (Trait-Specific)	42	2.6	Expression
-Glucose	380000	log10 BF > 2	DHS SNPs (Trait-Specific)	43	2.58	Expression
-Glucose	390000	log10 BF > 2	DHS SNPs (Trait-Specific)	44	2.57	Expression
-Glucose	400000	log10 BF > 2	DHS SNPs (Trait-Specific)	44	2.51	Expression
-Glucose	410000	log10 BF > 2	DHS SNPs (Trait-Specific)	45	2.5	Expression
-Glucose	420000	log10 BF > 2	DHS SNPs (Trait-Specific)	46	2.49	Expression
-Glucose	430000	log10 BF > 2	DHS SNPs (Trait-Specific)	46	2.44	Expression
-Glucose	440000	log10 BF > 2	DHS SNPs (Trait-Specific)	46	2.4	Expression
-Glucose	450000	log10 BF > 2	DHS SNPs (Trait-Specific)	46	2.35	Expression
-Glucose	460000	log10 BF > 2	DHS SNPs (Trait-Specific)	47	2.36	Expression
-Glucose	470000	log10 BF > 2	DHS SNPs (Trait-Specific)	47	2.3	Expression
-Glucose	480000	log10 BF > 2	DHS SNPs (Trait-Specific)	47	2.28	Expression
-Glucose	490000	log10 BF > 2	DHS SNPs (Trait-Specific)	47	2.25	Expression
-Glucose	500000	log10 BF > 2	DHS SNPs (Trait-Specific)	47	2.2	Expression
-Glucose	10000	log10 BF > 2	All SNPs	17	5.36	Expression
-Glucose	20000	log10 BF > 2	All SNPs	26	5.15	Expression
-Glucose	30000	log10 BF > 2	All SNPs	29	4.52	Expression
-Glucose	40000	log10 BF > 2	All SNPs	33	4.36	Expression
-Glucose	50000	log10 BF > 2	All SNPs	37	4.03	Expression
-Glucose	60000	log10 BF > 2	All SNPs	38	3.65	Expression
-Glucose	70000	log10 BF > 2	All SNPs	38	3.2	Expression
-Glucose	80000	log10 BF > 2	All SNPs	39	2.94	Expression
-Glucose	90000	log10 BF > 2	All SNPs	39	2.75	Expression
-Glucose	100000	log10 BF > 2	All SNPs	40	2.64	Expression
-Glucose	110000	log10 BF > 2	All SNPs	42	2.56	Expression
-Glucose	120000	log10 BF > 2	All SNPs	43	2.52	Expression
-Glucose	130000	log10 BF > 2	All SNPs	43	2.38	Expression
-Glucose	140000	log10 BF > 2	All SNPs	43	2.24	Expression
-Glucose	150000	log10 BF > 2	All SNPs	43	2.14	Expression
-Glucose	160000	log10 BF > 2	All SNPs	44	2.12	Expression
-Glucose	170000	log10 BF > 2	All SNPs	47	2.17	Expression
-Glucose	180000	log10 BF > 2	All SNPs	47	2.12	Expression
-Glucose	190000	log10 BF > 2	All SNPs	48	2.06	Expression
-Glucose	200000	log10 BF > 2	All SNPs	48	2.01	Expression
-Glucose	210000	log10 BF > 2	All SNPs	50	2.05	Expression
-Glucose	220000	log10 BF > 2	All SNPs	50	1.97	Expression
-Glucose	230000	log10 BF > 2	All SNPs	51	1.95	Expression
-Glucose	240000	log10 BF > 2	All SNPs	53	1.96	Expression
-Glucose	250000	log10 BF > 2	All SNPs	55	1.94	Expression
-Glucose	260000	log10 BF > 2	All SNPs	56	1.92	Expression
-Glucose	270000	log10 BF > 2	All SNPs	56	1.85	Expression
-Glucose	280000	log10 BF > 2	All SNPs	56	1.81	Expression
-Glucose	290000	log10 BF > 2	All SNPs	56	1.76	Expression
-Glucose	300000	log10 BF > 2	All SNPs	57	1.74	Expression
-Glucose	310000	log10 BF > 2	All SNPs	57	1.71	Expression
-Glucose	320000	log10 BF > 2	All SNPs	60	1.74	Expression
-Glucose	330000	log10 BF > 2	All SNPs	60	1.69	Expression
-Glucose	340000	log10 BF > 2	All SNPs	61	1.68	Expression
-Glucose	350000	log10 BF > 2	All SNPs	61	1.65	Expression
-Glucose	360000	log10 BF > 2	All SNPs	63	1.66	Expression
-Glucose	370000	log10 BF > 2	All SNPs	63	1.63	Expression
-Glucose	380000	log10 BF > 2	All SNPs	64	1.63	Expression
-Glucose	390000	log10 BF > 2	All SNPs	66	1.64	Expression
-Glucose	400000	log10 BF > 2	All SNPs	66	1.61	Expression
-Glucose	410000	log10 BF > 2	All SNPs	69	1.65	Expression
-Glucose	420000	log10 BF > 2	All SNPs	70	1.64	Expression
-Glucose	430000	log10 BF > 2	All SNPs	70	1.61	Expression
-Glucose	440000	log10 BF > 2	All SNPs	70	1.57	Expression
-Glucose	450000	log10 BF > 2	All SNPs	73	1.61	Expression
-Glucose	460000	log10 BF > 2	All SNPs	73	1.59	Expression
-Glucose	470000	log10 BF > 2	All SNPs	75	1.6	Expression
-Glucose	480000	log10 BF > 2	All SNPs	75	1.57	Expression
-Glucose	490000	log10 BF > 2	All SNPs	75	1.55	Expression
-Glucose	500000	log10 BF > 2	All SNPs	76	1.55	Expression
-Glucose	10000	log10 BF > 2	DHS SNPs	5	23.91	Disease + Drug
-Glucose	20000	log10 BF > 2	DHS SNPs	7	20.19	Disease + Drug
-Glucose	30000	log10 BF > 2	DHS SNPs	8	18.17	Disease + Drug
-Glucose	40000	log10 BF > 2	DHS SNPs	9	17.21	Disease + Drug
-Glucose	50000	log10 BF > 2	DHS SNPs	9	14.1	Disease + Drug
-Glucose	60000	log10 BF > 2	DHS SNPs	10	13.71	Disease + Drug
-Glucose	70000	log10 BF > 2	DHS SNPs	10	12.07	Disease + Drug
-Glucose	80000	log10 BF > 2	DHS SNPs	10	10.82	Disease + Drug
-Glucose	90000	log10 BF > 2	DHS SNPs	10	10.15	Disease + Drug
-Glucose	100000	log10 BF > 2	DHS SNPs	10	9.51	Disease + Drug
-Glucose	110000	log10 BF > 2	DHS SNPs	10	8.74	Disease + Drug
-Glucose	120000	log10 BF > 2	DHS SNPs	10	8.39	Disease + Drug
-Glucose	130000	log10 BF > 2	DHS SNPs	10	7.9	Disease + Drug
-Glucose	140000	log10 BF > 2	DHS SNPs	10	7.4	Disease + Drug
-Glucose	150000	log10 BF > 2	DHS SNPs	10	7.06	Disease + Drug
-Glucose	160000	log10 BF > 2	DHS SNPs	10	6.81	Disease + Drug
-Glucose	170000	log10 BF > 2	DHS SNPs	10	6.47	Disease + Drug
-Glucose	180000	log10 BF > 2	DHS SNPs	10	6.24	Disease + Drug
-Glucose	190000	log10 BF > 2	DHS SNPs	10	5.99	Disease + Drug
-Glucose	200000	log10 BF > 2	DHS SNPs	10	5.83	Disease + Drug
-Glucose	210000	log10 BF > 2	DHS SNPs	11	6.27	Disease + Drug
-Glucose	220000	log10 BF > 2	DHS SNPs	11	5.99	Disease + Drug
-Glucose	230000	log10 BF > 2	DHS SNPs	11	5.83	Disease + Drug
-Glucose	240000	log10 BF > 2	DHS SNPs	11	5.62	Disease + Drug
-Glucose	250000	log10 BF > 2	DHS SNPs	11	5.36	Disease + Drug
-Glucose	260000	log10 BF > 2	DHS SNPs	11	5.23	Disease + Drug
-Glucose	270000	log10 BF > 2	DHS SNPs	11	5.07	Disease + Drug
-Glucose	280000	log10 BF > 2	DHS SNPs	11	4.97	Disease + Drug
-Glucose	290000	log10 BF > 2	DHS SNPs	11	4.8	Disease + Drug
-Glucose	300000	log10 BF > 2	DHS SNPs	11	4.7	Disease + Drug
-Glucose	310000	log10 BF > 2	DHS SNPs	12	5.02	Disease + Drug
-Glucose	320000	log10 BF > 2	DHS SNPs	12	4.9	Disease + Drug
-Glucose	330000	log10 BF > 2	DHS SNPs	12	4.74	Disease + Drug
-Glucose	340000	log10 BF > 2	DHS SNPs	12	4.63	Disease + Drug
-Glucose	350000	log10 BF > 2	DHS SNPs	12	4.54	Disease + Drug
-Glucose	360000	log10 BF > 2	DHS SNPs	12	4.45	Disease + Drug
-Glucose	370000	log10 BF > 2	DHS SNPs	12	4.36	Disease + Drug
-Glucose	380000	log10 BF > 2	DHS SNPs	12	4.29	Disease + Drug
-Glucose	390000	log10 BF > 2	DHS SNPs	12	4.21	Disease + Drug
-Glucose	400000	log10 BF > 2	DHS SNPs	12	4.13	Disease + Drug
-Glucose	410000	log10 BF > 2	DHS SNPs	12	4.03	Disease + Drug
-Glucose	420000	log10 BF > 2	DHS SNPs	12	3.95	Disease + Drug
-Glucose	430000	log10 BF > 2	DHS SNPs	12	3.87	Disease + Drug
-Glucose	440000	log10 BF > 2	DHS SNPs	12	3.8	Disease + Drug
-Glucose	450000	log10 BF > 2	DHS SNPs	13	4.04	Disease + Drug
-Glucose	460000	log10 BF > 2	DHS SNPs	13	3.98	Disease + Drug
-Glucose	470000	log10 BF > 2	DHS SNPs	13	3.9	Disease + Drug
-Glucose	480000	log10 BF > 2	DHS SNPs	13	3.83	Disease + Drug
-Glucose	490000	log10 BF > 2	DHS SNPs	13	3.78	Disease + Drug
-Glucose	500000	log10 BF > 2	DHS SNPs	13	3.73	Disease + Drug
-Glucose	10000	log10 BF > 2	All SNPs	5	20.65	Disease + Drug
-Glucose	20000	log10 BF > 2	All SNPs	7	18.17	Disease + Drug
-Glucose	30000	log10 BF > 2	All SNPs	8	16.33	Disease + Drug
-Glucose	40000	log10 BF > 2	All SNPs	9	15.57	Disease + Drug
-Glucose	50000	log10 BF > 2	All SNPs	9	12.83	Disease + Drug
-Glucose	60000	log10 BF > 2	All SNPs	10	12.57	Disease + Drug
-Glucose	70000	log10 BF > 2	All SNPs	10	11.01	Disease + Drug
-Glucose	80000	log10 BF > 2	All SNPs	10	9.88	Disease + Drug
-Glucose	90000	log10 BF > 2	All SNPs	10	9.22	Disease + Drug
-Glucose	100000	log10 BF > 2	All SNPs	10	8.63	Disease + Drug
-Glucose	110000	log10 BF > 2	All SNPs	10	7.99	Disease + Drug
-Glucose	120000	log10 BF > 2	All SNPs	10	7.67	Disease + Drug
-Glucose	130000	log10 BF > 2	All SNPs	10	7.25	Disease + Drug
-Glucose	140000	log10 BF > 2	All SNPs	10	6.82	Disease + Drug
-Glucose	150000	log10 BF > 2	All SNPs	10	6.51	Disease + Drug
-Glucose	160000	log10 BF > 2	All SNPs	10	6.3	Disease + Drug
-Glucose	170000	log10 BF > 2	All SNPs	10	6.06	Disease + Drug
-Glucose	180000	log10 BF > 2	All SNPs	10	5.9	Disease + Drug
-Glucose	190000	log10 BF > 2	All SNPs	10	5.62	Disease + Drug
-Glucose	200000	log10 BF > 2	All SNPs	10	5.49	Disease + Drug
-Glucose	210000	log10 BF > 2	All SNPs	11	5.9	Disease + Drug
-Glucose	220000	log10 BF > 2	All SNPs	11	5.66	Disease + Drug
-Glucose	230000	log10 BF > 2	All SNPs	11	5.51	Disease + Drug
-Glucose	240000	log10 BF > 2	All SNPs	11	5.32	Disease + Drug
-Glucose	250000	log10 BF > 2	All SNPs	11	5.07	Disease + Drug
-Glucose	260000	log10 BF > 2	All SNPs	11	4.93	Disease + Drug
-Glucose	270000	log10 BF > 2	All SNPs	11	4.77	Disease + Drug
-Glucose	280000	log10 BF > 2	All SNPs	11	4.66	Disease + Drug
-Glucose	290000	log10 BF > 2	All SNPs	11	4.52	Disease + Drug
-Glucose	300000	log10 BF > 2	All SNPs	11	4.4	Disease + Drug
-Glucose	310000	log10 BF > 2	All SNPs	12	4.7	Disease + Drug
-Glucose	320000	log10 BF > 2	All SNPs	12	4.57	Disease + Drug
-Glucose	330000	log10 BF > 2	All SNPs	12	4.44	Disease + Drug
-Glucose	340000	log10 BF > 2	All SNPs	12	4.33	Disease + Drug
-Glucose	350000	log10 BF > 2	All SNPs	12	4.25	Disease + Drug
-Glucose	360000	log10 BF > 2	All SNPs	12	4.15	Disease + Drug
-Glucose	370000	log10 BF > 2	All SNPs	12	4.06	Disease + Drug
-Glucose	380000	log10 BF > 2	All SNPs	12	4	Disease + Drug
-Glucose	390000	log10 BF > 2	All SNPs	12	3.91	Disease + Drug
-Glucose	400000	log10 BF > 2	All SNPs	12	3.84	Disease + Drug
-Glucose	410000	log10 BF > 2	All SNPs	12	3.75	Disease + Drug
-Glucose	420000	log10 BF > 2	All SNPs	12	3.68	Disease + Drug
-Glucose	430000	log10 BF > 2	All SNPs	12	3.61	Disease + Drug
-Glucose	440000	log10 BF > 2	All SNPs	12	3.53	Disease + Drug
-Glucose	450000	log10 BF > 2	All SNPs	13	3.76	Disease + Drug
-Glucose	460000	log10 BF > 2	All SNPs	13	3.7	Disease + Drug
-Glucose	470000	log10 BF > 2	All SNPs	13	3.63	Disease + Drug
-Glucose	480000	log10 BF > 2	All SNPs	13	3.57	Disease + Drug
-Glucose	490000	log10 BF > 2	All SNPs	13	3.52	Disease + Drug
-Glucose	500000	log10 BF > 2	All SNPs	13	3.46	Disease + Drug
-Glucose	10000	log10 BF > 2	DHS SNPs (Trait-Specific)	4	58.14	Disease + Drug
-Glucose	20000	log10 BF > 2	DHS SNPs (Trait-Specific)	4	33.8	Disease + Drug
-Glucose	30000	log10 BF > 2	DHS SNPs (Trait-Specific)	5	30.8	Disease + Drug
-Glucose	40000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	34.85	Disease + Drug
-Glucose	50000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	31.8	Disease + Drug
-Glucose	60000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	27.65	Disease + Drug
-Glucose	70000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	23.34	Disease + Drug
-Glucose	80000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	21.2	Disease + Drug
-Glucose	90000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	19.42	Disease + Drug
-Glucose	100000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	17.67	Disease + Drug
-Glucose	110000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	16	Disease + Drug
-Glucose	120000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	15.32	Disease + Drug
-Glucose	130000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	14.54	Disease + Drug
-Glucose	140000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	13.53	Disease + Drug
-Glucose	150000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	12.91	Disease + Drug
-Glucose	160000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	12.29	Disease + Drug
-Glucose	170000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	11.78	Disease + Drug
-Glucose	180000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	11.41	Disease + Drug
-Glucose	190000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	10.64	Disease + Drug
-Glucose	200000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	10.18	Disease + Drug
-Glucose	210000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	9.82	Disease + Drug
-Glucose	220000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	9.25	Disease + Drug
-Glucose	230000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	8.89	Disease + Drug
-Glucose	240000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	8.54	Disease + Drug
-Glucose	250000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	8.08	Disease + Drug
-Glucose	260000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	7.85	Disease + Drug
-Glucose	270000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	7.57	Disease + Drug
-Glucose	280000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	7.27	Disease + Drug
-Glucose	290000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	7.15	Disease + Drug
-Glucose	300000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	6.95	Disease + Drug
-Glucose	310000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	6.75	Disease + Drug
-Glucose	320000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	6.56	Disease + Drug
-Glucose	330000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	6.28	Disease + Drug
-Glucose	340000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	6.13	Disease + Drug
-Glucose	350000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	5.89	Disease + Drug
-Glucose	360000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	5.74	Disease + Drug
-Glucose	370000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	5.67	Disease + Drug
-Glucose	380000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	5.51	Disease + Drug
-Glucose	390000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	5.34	Disease + Drug
-Glucose	400000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	5.22	Disease + Drug
-Glucose	410000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	5.09	Disease + Drug
-Glucose	420000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	4.96	Disease + Drug
-Glucose	430000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	4.85	Disease + Drug
-Glucose	440000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	4.79	Disease + Drug
-Glucose	450000	log10 BF > 2	DHS SNPs (Trait-Specific)	8	5.34	Disease + Drug
-Glucose	460000	log10 BF > 2	DHS SNPs (Trait-Specific)	8	5.26	Disease + Drug
-Glucose	470000	log10 BF > 2	DHS SNPs (Trait-Specific)	9	5.77	Disease + Drug
-Glucose	480000	log10 BF > 2	DHS SNPs (Trait-Specific)	9	5.71	Disease + Drug
-Glucose	490000	log10 BF > 2	DHS SNPs (Trait-Specific)	9	5.63	Disease + Drug
-Glucose	500000	log10 BF > 2	DHS SNPs (Trait-Specific)	9	5.51	Disease + Drug
-Glucose	10000	P-value < 5e-8	All SNPs	7	9.12	Disease + Drug
-Glucose	20000	P-value < 5e-8	All SNPs	9	10.19	Disease + Drug
-Glucose	30000	P-value < 5e-8	All SNPs	9	9.14	Disease + Drug
-Glucose	40000	P-value < 5e-8	All SNPs	9	8.32	Disease + Drug
-Glucose	50000	P-value < 5e-8	All SNPs	9	7.73	Disease + Drug
-Glucose	60000	P-value < 5e-8	All SNPs	10	7.87	Disease + Drug
-Glucose	70000	P-value < 5e-8	All SNPs	10	7.31	Disease + Drug
-Glucose	80000	P-value < 5e-8	All SNPs	10	6.88	Disease + Drug
-Glucose	90000	P-value < 5e-8	All SNPs	10	6.55	Disease + Drug
-Glucose	100000	P-value < 5e-8	All SNPs	10	6.23	Disease + Drug
-Glucose	110000	P-value < 5e-8	All SNPs	10	6.05	Disease + Drug
-Glucose	120000	P-value < 5e-8	All SNPs	10	5.85	Disease + Drug
-Glucose	130000	P-value < 5e-8	All SNPs	10	5.6	Disease + Drug
-Glucose	140000	P-value < 5e-8	All SNPs	10	5.34	Disease + Drug
-Glucose	150000	P-value < 5e-8	All SNPs	10	5.1	Disease + Drug
-Glucose	160000	P-value < 5e-8	All SNPs	10	4.9	Disease + Drug
-Glucose	170000	P-value < 5e-8	All SNPs	10	4.7	Disease + Drug
-Glucose	180000	P-value < 5e-8	All SNPs	10	4.57	Disease + Drug
-Glucose	190000	P-value < 5e-8	All SNPs	10	4.43	Disease + Drug
-Glucose	200000	P-value < 5e-8	All SNPs	11	4.71	Disease + Drug
-Glucose	210000	P-value < 5e-8	All SNPs	11	4.59	Disease + Drug
-Glucose	220000	P-value < 5e-8	All SNPs	11	4.41	Disease + Drug
-Glucose	230000	P-value < 5e-8	All SNPs	11	4.3	Disease + Drug
-Glucose	240000	P-value < 5e-8	All SNPs	11	4.15	Disease + Drug
-Glucose	250000	P-value < 5e-8	All SNPs	11	4.03	Disease + Drug
-Glucose	260000	P-value < 5e-8	All SNPs	11	3.93	Disease + Drug
-Glucose	270000	P-value < 5e-8	All SNPs	11	3.79	Disease + Drug
-Glucose	280000	P-value < 5e-8	All SNPs	11	3.71	Disease + Drug
-Glucose	290000	P-value < 5e-8	All SNPs	11	3.62	Disease + Drug
-Glucose	300000	P-value < 5e-8	All SNPs	11	3.51	Disease + Drug
-Glucose	310000	P-value < 5e-8	All SNPs	11	3.45	Disease + Drug
-Glucose	320000	P-value < 5e-8	All SNPs	11	3.35	Disease + Drug
-Glucose	330000	P-value < 5e-8	All SNPs	11	3.26	Disease + Drug
-Glucose	340000	P-value < 5e-8	All SNPs	11	3.19	Disease + Drug
-Glucose	350000	P-value < 5e-8	All SNPs	11	3.13	Disease + Drug
-Glucose	360000	P-value < 5e-8	All SNPs	11	3.05	Disease + Drug
-Glucose	370000	P-value < 5e-8	All SNPs	11	2.99	Disease + Drug
-Glucose	380000	P-value < 5e-8	All SNPs	11	2.93	Disease + Drug
-Glucose	390000	P-value < 5e-8	All SNPs	11	2.88	Disease + Drug
-Glucose	400000	P-value < 5e-8	All SNPs	11	2.83	Disease + Drug
-Glucose	410000	P-value < 5e-8	All SNPs	11	2.78	Disease + Drug
-Glucose	420000	P-value < 5e-8	All SNPs	11	2.72	Disease + Drug
-Glucose	430000	P-value < 5e-8	All SNPs	12	2.91	Disease + Drug
-Glucose	440000	P-value < 5e-8	All SNPs	12	2.86	Disease + Drug
-Glucose	450000	P-value < 5e-8	All SNPs	13	3.05	Disease + Drug
-Glucose	460000	P-value < 5e-8	All SNPs	13	3	Disease + Drug
-Glucose	470000	P-value < 5e-8	All SNPs	13	2.95	Disease + Drug
-Glucose	480000	P-value < 5e-8	All SNPs	15	3.34	Disease + Drug
-Glucose	490000	P-value < 5e-8	All SNPs	15	3.29	Disease + Drug
-Glucose	500000	P-value < 5e-8	All SNPs	15	3.25	Disease + Drug
+Glucose	10000	log10 BF > 2	DHS SNPs	16	5.84	Glucose_expression
+Glucose	20000	log10 BF > 2	DHS SNPs	26	5.73	Glucose_expression
+Glucose	30000	log10 BF > 2	DHS SNPs	29	5.03	Glucose_expression
+Glucose	40000	log10 BF > 2	DHS SNPs	32	4.67	Glucose_expression
+Glucose	50000	log10 BF > 2	DHS SNPs	36	4.31	Glucose_expression
+Glucose	60000	log10 BF > 2	DHS SNPs	37	3.88	Glucose_expression
+Glucose	70000	log10 BF > 2	DHS SNPs	37	3.41	Glucose_expression
+Glucose	80000	log10 BF > 2	DHS SNPs	38	3.14	Glucose_expression
+Glucose	90000	log10 BF > 2	DHS SNPs	38	2.95	Glucose_expression
+Glucose	100000	log10 BF > 2	DHS SNPs	39	2.83	Glucose_expression
+Glucose	110000	log10 BF > 2	DHS SNPs	41	2.74	Glucose_expression
+Glucose	120000	log10 BF > 2	DHS SNPs	42	2.69	Glucose_expression
+Glucose	130000	log10 BF > 2	DHS SNPs	42	2.53	Glucose_expression
+Glucose	140000	log10 BF > 2	DHS SNPs	42	2.37	Glucose_expression
+Glucose	150000	log10 BF > 2	DHS SNPs	43	2.32	Glucose_expression
+Glucose	160000	log10 BF > 2	DHS SNPs	44	2.29	Glucose_expression
+Glucose	170000	log10 BF > 2	DHS SNPs	46	2.27	Glucose_expression
+Glucose	180000	log10 BF > 2	DHS SNPs	47	2.24	Glucose_expression
+Glucose	190000	log10 BF > 2	DHS SNPs	47	2.15	Glucose_expression
+Glucose	200000	log10 BF > 2	DHS SNPs	47	2.09	Glucose_expression
+Glucose	210000	log10 BF > 2	DHS SNPs	49	2.13	Glucose_expression
+Glucose	220000	log10 BF > 2	DHS SNPs	50	2.08	Glucose_expression
+Glucose	230000	log10 BF > 2	DHS SNPs	51	2.06	Glucose_expression
+Glucose	240000	log10 BF > 2	DHS SNPs	53	2.07	Glucose_expression
+Glucose	250000	log10 BF > 2	DHS SNPs	55	2.05	Glucose_expression
+Glucose	260000	log10 BF > 2	DHS SNPs	56	2.03	Glucose_expression
+Glucose	270000	log10 BF > 2	DHS SNPs	56	1.97	Glucose_expression
+Glucose	280000	log10 BF > 2	DHS SNPs	56	1.93	Glucose_expression
+Glucose	290000	log10 BF > 2	DHS SNPs	56	1.87	Glucose_expression
+Glucose	300000	log10 BF > 2	DHS SNPs	56	1.83	Glucose_expression
+Glucose	310000	log10 BF > 2	DHS SNPs	56	1.79	Glucose_expression
+Glucose	320000	log10 BF > 2	DHS SNPs	59	1.84	Glucose_expression
+Glucose	330000	log10 BF > 2	DHS SNPs	59	1.78	Glucose_expression
+Glucose	340000	log10 BF > 2	DHS SNPs	60	1.77	Glucose_expression
+Glucose	350000	log10 BF > 2	DHS SNPs	60	1.73	Glucose_expression
+Glucose	360000	log10 BF > 2	DHS SNPs	62	1.75	Glucose_expression
+Glucose	370000	log10 BF > 2	DHS SNPs	62	1.72	Glucose_expression
+Glucose	380000	log10 BF > 2	DHS SNPs	63	1.72	Glucose_expression
+Glucose	390000	log10 BF > 2	DHS SNPs	64	1.71	Glucose_expression
+Glucose	400000	log10 BF > 2	DHS SNPs	64	1.68	Glucose_expression
+Glucose	410000	log10 BF > 2	DHS SNPs	67	1.72	Glucose_expression
+Glucose	420000	log10 BF > 2	DHS SNPs	69	1.74	Glucose_expression
+Glucose	430000	log10 BF > 2	DHS SNPs	69	1.7	Glucose_expression
+Glucose	440000	log10 BF > 2	DHS SNPs	69	1.67	Glucose_expression
+Glucose	450000	log10 BF > 2	DHS SNPs	72	1.71	Glucose_expression
+Glucose	460000	log10 BF > 2	DHS SNPs	72	1.68	Glucose_expression
+Glucose	470000	log10 BF > 2	DHS SNPs	74	1.69	Glucose_expression
+Glucose	480000	log10 BF > 2	DHS SNPs	74	1.66	Glucose_expression
+Glucose	490000	log10 BF > 2	DHS SNPs	74	1.64	Glucose_expression
+Glucose	500000	log10 BF > 2	DHS SNPs	74	1.62	Glucose_expression
+Glucose	10000	log10 BF > 2	DHS SNPs (Trait-Specific)	6	6.66	Glucose_expression
+Glucose	20000	log10 BF > 2	DHS SNPs (Trait-Specific)	10	6.45	Glucose_expression
+Glucose	30000	log10 BF > 2	DHS SNPs (Trait-Specific)	14	6.59	Glucose_expression
+Glucose	40000	log10 BF > 2	DHS SNPs (Trait-Specific)	17	6.46	Glucose_expression
+Glucose	50000	log10 BF > 2	DHS SNPs (Trait-Specific)	20	6.94	Glucose_expression
+Glucose	60000	log10 BF > 2	DHS SNPs (Trait-Specific)	20	6.03	Glucose_expression
+Glucose	70000	log10 BF > 2	DHS SNPs (Trait-Specific)	22	5.6	Glucose_expression
+Glucose	80000	log10 BF > 2	DHS SNPs (Trait-Specific)	22	5.09	Glucose_expression
+Glucose	90000	log10 BF > 2	DHS SNPs (Trait-Specific)	22	4.66	Glucose_expression
+Glucose	100000	log10 BF > 2	DHS SNPs (Trait-Specific)	24	4.63	Glucose_expression
+Glucose	110000	log10 BF > 2	DHS SNPs (Trait-Specific)	27	4.71	Glucose_expression
+Glucose	120000	log10 BF > 2	DHS SNPs (Trait-Specific)	27	4.51	Glucose_expression
+Glucose	130000	log10 BF > 2	DHS SNPs (Trait-Specific)	27	4.28	Glucose_expression
+Glucose	140000	log10 BF > 2	DHS SNPs (Trait-Specific)	27	3.99	Glucose_expression
+Glucose	150000	log10 BF > 2	DHS SNPs (Trait-Specific)	28	3.94	Glucose_expression
+Glucose	160000	log10 BF > 2	DHS SNPs (Trait-Specific)	29	3.89	Glucose_expression
+Glucose	170000	log10 BF > 2	DHS SNPs (Trait-Specific)	30	3.85	Glucose_expression
+Glucose	180000	log10 BF > 2	DHS SNPs (Trait-Specific)	31	3.86	Glucose_expression
+Glucose	190000	log10 BF > 2	DHS SNPs (Trait-Specific)	31	3.6	Glucose_expression
+Glucose	200000	log10 BF > 2	DHS SNPs (Trait-Specific)	31	3.44	Glucose_expression
+Glucose	210000	log10 BF > 2	DHS SNPs (Trait-Specific)	32	3.43	Glucose_expression
+Glucose	220000	log10 BF > 2	DHS SNPs (Trait-Specific)	32	3.23	Glucose_expression
+Glucose	230000	log10 BF > 2	DHS SNPs (Trait-Specific)	33	3.2	Glucose_expression
+Glucose	240000	log10 BF > 2	DHS SNPs (Trait-Specific)	34	3.17	Glucose_expression
+Glucose	250000	log10 BF > 2	DHS SNPs (Trait-Specific)	35	3.08	Glucose_expression
+Glucose	260000	log10 BF > 2	DHS SNPs (Trait-Specific)	36	3.08	Glucose_expression
+Glucose	270000	log10 BF > 2	DHS SNPs (Trait-Specific)	36	2.97	Glucose_expression
+Glucose	280000	log10 BF > 2	DHS SNPs (Trait-Specific)	37	2.93	Glucose_expression
+Glucose	290000	log10 BF > 2	DHS SNPs (Trait-Specific)	37	2.88	Glucose_expression
+Glucose	300000	log10 BF > 2	DHS SNPs (Trait-Specific)	37	2.81	Glucose_expression
+Glucose	310000	log10 BF > 2	DHS SNPs (Trait-Specific)	37	2.72	Glucose_expression
+Glucose	320000	log10 BF > 2	DHS SNPs (Trait-Specific)	37	2.65	Glucose_expression
+Glucose	330000	log10 BF > 2	DHS SNPs (Trait-Specific)	39	2.67	Glucose_expression
+Glucose	340000	log10 BF > 2	DHS SNPs (Trait-Specific)	41	2.74	Glucose_expression
+Glucose	350000	log10 BF > 2	DHS SNPs (Trait-Specific)	41	2.63	Glucose_expression
+Glucose	360000	log10 BF > 2	DHS SNPs (Trait-Specific)	42	2.63	Glucose_expression
+Glucose	370000	log10 BF > 2	DHS SNPs (Trait-Specific)	42	2.6	Glucose_expression
+Glucose	380000	log10 BF > 2	DHS SNPs (Trait-Specific)	43	2.58	Glucose_expression
+Glucose	390000	log10 BF > 2	DHS SNPs (Trait-Specific)	44	2.57	Glucose_expression
+Glucose	400000	log10 BF > 2	DHS SNPs (Trait-Specific)	44	2.51	Glucose_expression
+Glucose	410000	log10 BF > 2	DHS SNPs (Trait-Specific)	45	2.5	Glucose_expression
+Glucose	420000	log10 BF > 2	DHS SNPs (Trait-Specific)	46	2.49	Glucose_expression
+Glucose	430000	log10 BF > 2	DHS SNPs (Trait-Specific)	46	2.44	Glucose_expression
+Glucose	440000	log10 BF > 2	DHS SNPs (Trait-Specific)	46	2.4	Glucose_expression
+Glucose	450000	log10 BF > 2	DHS SNPs (Trait-Specific)	46	2.35	Glucose_expression
+Glucose	460000	log10 BF > 2	DHS SNPs (Trait-Specific)	47	2.36	Glucose_expression
+Glucose	470000	log10 BF > 2	DHS SNPs (Trait-Specific)	47	2.3	Glucose_expression
+Glucose	480000	log10 BF > 2	DHS SNPs (Trait-Specific)	47	2.28	Glucose_expression
+Glucose	490000	log10 BF > 2	DHS SNPs (Trait-Specific)	47	2.25	Glucose_expression
+Glucose	500000	log10 BF > 2	DHS SNPs (Trait-Specific)	47	2.2	Glucose_expression
+Glucose	10000	P-value < 5e-8	All SNPs	35	3.48	Glucose_expression
+Glucose	20000	P-value < 5e-8	All SNPs	40	3.46	Glucose_expression
+Glucose	30000	P-value < 5e-8	All SNPs	40	3.1	Glucose_expression
+Glucose	40000	P-value < 5e-8	All SNPs	42	2.97	Glucose_expression
+Glucose	50000	P-value < 5e-8	All SNPs	45	2.95	Glucose_expression
+Glucose	60000	P-value < 5e-8	All SNPs	45	2.7	Glucose_expression
+Glucose	70000	P-value < 5e-8	All SNPs	46	2.57	Glucose_expression
+Glucose	80000	P-value < 5e-8	All SNPs	49	2.58	Glucose_expression
+Glucose	90000	P-value < 5e-8	All SNPs	49	2.45	Glucose_expression
+Glucose	100000	P-value < 5e-8	All SNPs	50	2.38	Glucose_expression
+Glucose	110000	P-value < 5e-8	All SNPs	51	2.36	Glucose_expression
+Glucose	120000	P-value < 5e-8	All SNPs	51	2.28	Glucose_expression
+Glucose	130000	P-value < 5e-8	All SNPs	52	2.22	Glucose_expression
+Glucose	140000	P-value < 5e-8	All SNPs	52	2.12	Glucose_expression
+Glucose	150000	P-value < 5e-8	All SNPs	54	2.1	Glucose_expression
+Glucose	160000	P-value < 5e-8	All SNPs	56	2.09	Glucose_expression
+Glucose	170000	P-value < 5e-8	All SNPs	58	2.08	Glucose_expression
+Glucose	180000	P-value < 5e-8	All SNPs	58	2.02	Glucose_expression
+Glucose	190000	P-value < 5e-8	All SNPs	59	1.99	Glucose_expression
+Glucose	200000	P-value < 5e-8	All SNPs	61	1.99	Glucose_expression
+Glucose	210000	P-value < 5e-8	All SNPs	61	1.94	Glucose_expression
+Glucose	220000	P-value < 5e-8	All SNPs	64	1.96	Glucose_expression
+Glucose	230000	P-value < 5e-8	All SNPs	64	1.91	Glucose_expression
+Glucose	240000	P-value < 5e-8	All SNPs	65	1.87	Glucose_expression
+Glucose	250000	P-value < 5e-8	All SNPs	68	1.9	Glucose_expression
+Glucose	260000	P-value < 5e-8	All SNPs	69	1.88	Glucose_expression
+Glucose	270000	P-value < 5e-8	All SNPs	70	1.84	Glucose_expression
+Glucose	280000	P-value < 5e-8	All SNPs	71	1.83	Glucose_expression
+Glucose	290000	P-value < 5e-8	All SNPs	72	1.81	Glucose_expression
+Glucose	300000	P-value < 5e-8	All SNPs	74	1.8	Glucose_expression
+Glucose	310000	P-value < 5e-8	All SNPs	75	1.8	Glucose_expression
+Glucose	320000	P-value < 5e-8	All SNPs	79	1.84	Glucose_expression
+Glucose	330000	P-value < 5e-8	All SNPs	79	1.79	Glucose_expression
+Glucose	340000	P-value < 5e-8	All SNPs	80	1.77	Glucose_expression
+Glucose	350000	P-value < 5e-8	All SNPs	81	1.76	Glucose_expression
+Glucose	360000	P-value < 5e-8	All SNPs	83	1.76	Glucose_expression
+Glucose	370000	P-value < 5e-8	All SNPs	85	1.76	Glucose_expression
+Glucose	380000	P-value < 5e-8	All SNPs	85	1.73	Glucose_expression
+Glucose	390000	P-value < 5e-8	All SNPs	88	1.76	Glucose_expression
+Glucose	400000	P-value < 5e-8	All SNPs	90	1.77	Glucose_expression
+Glucose	410000	P-value < 5e-8	All SNPs	92	1.78	Glucose_expression
+Glucose	420000	P-value < 5e-8	All SNPs	93	1.75	Glucose_expression
+Glucose	430000	P-value < 5e-8	All SNPs	93	1.72	Glucose_expression
+Glucose	440000	P-value < 5e-8	All SNPs	96	1.74	Glucose_expression
+Glucose	450000	P-value < 5e-8	All SNPs	96	1.72	Glucose_expression
+Glucose	460000	P-value < 5e-8	All SNPs	96	1.69	Glucose_expression
+Glucose	470000	P-value < 5e-8	All SNPs	96	1.66	Glucose_expression
+Glucose	480000	P-value < 5e-8	All SNPs	97	1.65	Glucose_expression
+Glucose	490000	P-value < 5e-8	All SNPs	97	1.62	Glucose_expression
+Glucose	500000	P-value < 5e-8	All SNPs	97	1.61	Glucose_expression
+Glucose	10000	log10 BF > 2	All SNPs	17	5.36	Glucose_expression
+Glucose	20000	log10 BF > 2	All SNPs	26	5.15	Glucose_expression
+Glucose	30000	log10 BF > 2	All SNPs	29	4.52	Glucose_expression
+Glucose	40000	log10 BF > 2	All SNPs	33	4.36	Glucose_expression
+Glucose	50000	log10 BF > 2	All SNPs	37	4.03	Glucose_expression
+Glucose	60000	log10 BF > 2	All SNPs	38	3.65	Glucose_expression
+Glucose	70000	log10 BF > 2	All SNPs	38	3.2	Glucose_expression
+Glucose	80000	log10 BF > 2	All SNPs	39	2.94	Glucose_expression
+Glucose	90000	log10 BF > 2	All SNPs	39	2.75	Glucose_expression
+Glucose	100000	log10 BF > 2	All SNPs	40	2.64	Glucose_expression
+Glucose	110000	log10 BF > 2	All SNPs	42	2.56	Glucose_expression
+Glucose	120000	log10 BF > 2	All SNPs	43	2.52	Glucose_expression
+Glucose	130000	log10 BF > 2	All SNPs	43	2.38	Glucose_expression
+Glucose	140000	log10 BF > 2	All SNPs	43	2.24	Glucose_expression
+Glucose	150000	log10 BF > 2	All SNPs	43	2.14	Glucose_expression
+Glucose	160000	log10 BF > 2	All SNPs	44	2.12	Glucose_expression
+Glucose	170000	log10 BF > 2	All SNPs	47	2.17	Glucose_expression
+Glucose	180000	log10 BF > 2	All SNPs	47	2.12	Glucose_expression
+Glucose	190000	log10 BF > 2	All SNPs	48	2.06	Glucose_expression
+Glucose	200000	log10 BF > 2	All SNPs	48	2.01	Glucose_expression
+Glucose	210000	log10 BF > 2	All SNPs	50	2.05	Glucose_expression
+Glucose	220000	log10 BF > 2	All SNPs	50	1.97	Glucose_expression
+Glucose	230000	log10 BF > 2	All SNPs	51	1.95	Glucose_expression
+Glucose	240000	log10 BF > 2	All SNPs	53	1.96	Glucose_expression
+Glucose	250000	log10 BF > 2	All SNPs	55	1.94	Glucose_expression
+Glucose	260000	log10 BF > 2	All SNPs	56	1.92	Glucose_expression
+Glucose	270000	log10 BF > 2	All SNPs	56	1.85	Glucose_expression
+Glucose	280000	log10 BF > 2	All SNPs	56	1.81	Glucose_expression
+Glucose	290000	log10 BF > 2	All SNPs	56	1.76	Glucose_expression
+Glucose	300000	log10 BF > 2	All SNPs	57	1.74	Glucose_expression
+Glucose	310000	log10 BF > 2	All SNPs	57	1.71	Glucose_expression
+Glucose	320000	log10 BF > 2	All SNPs	60	1.74	Glucose_expression
+Glucose	330000	log10 BF > 2	All SNPs	60	1.69	Glucose_expression
+Glucose	340000	log10 BF > 2	All SNPs	61	1.68	Glucose_expression
+Glucose	350000	log10 BF > 2	All SNPs	61	1.65	Glucose_expression
+Glucose	360000	log10 BF > 2	All SNPs	63	1.66	Glucose_expression
+Glucose	370000	log10 BF > 2	All SNPs	63	1.63	Glucose_expression
+Glucose	380000	log10 BF > 2	All SNPs	64	1.63	Glucose_expression
+Glucose	390000	log10 BF > 2	All SNPs	66	1.64	Glucose_expression
+Glucose	400000	log10 BF > 2	All SNPs	66	1.61	Glucose_expression
+Glucose	410000	log10 BF > 2	All SNPs	69	1.65	Glucose_expression
+Glucose	420000	log10 BF > 2	All SNPs	70	1.64	Glucose_expression
+Glucose	430000	log10 BF > 2	All SNPs	70	1.61	Glucose_expression
+Glucose	440000	log10 BF > 2	All SNPs	70	1.57	Glucose_expression
+Glucose	450000	log10 BF > 2	All SNPs	73	1.61	Glucose_expression
+Glucose	460000	log10 BF > 2	All SNPs	73	1.59	Glucose_expression
+Glucose	470000	log10 BF > 2	All SNPs	75	1.6	Glucose_expression
+Glucose	480000	log10 BF > 2	All SNPs	75	1.57	Glucose_expression
+Glucose	490000	log10 BF > 2	All SNPs	75	1.55	Glucose_expression
+Glucose	500000	log10 BF > 2	All SNPs	76	1.55	Glucose_expression
+Glucose	10000	log10 BF > 2	DHS SNPs	5	23.91	glucose-disease-drug
+Glucose	20000	log10 BF > 2	DHS SNPs	7	20.19	glucose-disease-drug
+Glucose	30000	log10 BF > 2	DHS SNPs	8	18.17	glucose-disease-drug
+Glucose	40000	log10 BF > 2	DHS SNPs	9	17.21	glucose-disease-drug
+Glucose	50000	log10 BF > 2	DHS SNPs	9	14.1	glucose-disease-drug
+Glucose	60000	log10 BF > 2	DHS SNPs	10	13.71	glucose-disease-drug
+Glucose	70000	log10 BF > 2	DHS SNPs	10	12.07	glucose-disease-drug
+Glucose	80000	log10 BF > 2	DHS SNPs	10	10.82	glucose-disease-drug
+Glucose	90000	log10 BF > 2	DHS SNPs	10	10.15	glucose-disease-drug
+Glucose	100000	log10 BF > 2	DHS SNPs	10	9.51	glucose-disease-drug
+Glucose	110000	log10 BF > 2	DHS SNPs	10	8.74	glucose-disease-drug
+Glucose	120000	log10 BF > 2	DHS SNPs	10	8.39	glucose-disease-drug
+Glucose	130000	log10 BF > 2	DHS SNPs	10	7.9	glucose-disease-drug
+Glucose	140000	log10 BF > 2	DHS SNPs	10	7.4	glucose-disease-drug
+Glucose	150000	log10 BF > 2	DHS SNPs	10	7.06	glucose-disease-drug
+Glucose	160000	log10 BF > 2	DHS SNPs	10	6.81	glucose-disease-drug
+Glucose	170000	log10 BF > 2	DHS SNPs	10	6.47	glucose-disease-drug
+Glucose	180000	log10 BF > 2	DHS SNPs	10	6.24	glucose-disease-drug
+Glucose	190000	log10 BF > 2	DHS SNPs	10	5.99	glucose-disease-drug
+Glucose	200000	log10 BF > 2	DHS SNPs	10	5.83	glucose-disease-drug
+Glucose	210000	log10 BF > 2	DHS SNPs	11	6.27	glucose-disease-drug
+Glucose	220000	log10 BF > 2	DHS SNPs	11	5.99	glucose-disease-drug
+Glucose	230000	log10 BF > 2	DHS SNPs	11	5.83	glucose-disease-drug
+Glucose	240000	log10 BF > 2	DHS SNPs	11	5.62	glucose-disease-drug
+Glucose	250000	log10 BF > 2	DHS SNPs	11	5.36	glucose-disease-drug
+Glucose	260000	log10 BF > 2	DHS SNPs	11	5.23	glucose-disease-drug
+Glucose	270000	log10 BF > 2	DHS SNPs	11	5.07	glucose-disease-drug
+Glucose	280000	log10 BF > 2	DHS SNPs	11	4.97	glucose-disease-drug
+Glucose	290000	log10 BF > 2	DHS SNPs	11	4.8	glucose-disease-drug
+Glucose	300000	log10 BF > 2	DHS SNPs	11	4.7	glucose-disease-drug
+Glucose	310000	log10 BF > 2	DHS SNPs	12	5.02	glucose-disease-drug
+Glucose	320000	log10 BF > 2	DHS SNPs	12	4.9	glucose-disease-drug
+Glucose	330000	log10 BF > 2	DHS SNPs	12	4.74	glucose-disease-drug
+Glucose	340000	log10 BF > 2	DHS SNPs	12	4.63	glucose-disease-drug
+Glucose	350000	log10 BF > 2	DHS SNPs	12	4.54	glucose-disease-drug
+Glucose	360000	log10 BF > 2	DHS SNPs	12	4.45	glucose-disease-drug
+Glucose	370000	log10 BF > 2	DHS SNPs	12	4.36	glucose-disease-drug
+Glucose	380000	log10 BF > 2	DHS SNPs	12	4.29	glucose-disease-drug
+Glucose	390000	log10 BF > 2	DHS SNPs	12	4.21	glucose-disease-drug
+Glucose	400000	log10 BF > 2	DHS SNPs	12	4.13	glucose-disease-drug
+Glucose	410000	log10 BF > 2	DHS SNPs	12	4.03	glucose-disease-drug
+Glucose	420000	log10 BF > 2	DHS SNPs	12	3.95	glucose-disease-drug
+Glucose	430000	log10 BF > 2	DHS SNPs	12	3.87	glucose-disease-drug
+Glucose	440000	log10 BF > 2	DHS SNPs	12	3.8	glucose-disease-drug
+Glucose	450000	log10 BF > 2	DHS SNPs	13	4.04	glucose-disease-drug
+Glucose	460000	log10 BF > 2	DHS SNPs	13	3.98	glucose-disease-drug
+Glucose	470000	log10 BF > 2	DHS SNPs	13	3.9	glucose-disease-drug
+Glucose	480000	log10 BF > 2	DHS SNPs	13	3.83	glucose-disease-drug
+Glucose	490000	log10 BF > 2	DHS SNPs	13	3.78	glucose-disease-drug
+Glucose	500000	log10 BF > 2	DHS SNPs	13	3.73	glucose-disease-drug
+Glucose	10000	P-value < 5e-8	All SNPs	7	9.12	glucose-disease-drug
+Glucose	20000	P-value < 5e-8	All SNPs	9	10.19	glucose-disease-drug
+Glucose	30000	P-value < 5e-8	All SNPs	9	9.14	glucose-disease-drug
+Glucose	40000	P-value < 5e-8	All SNPs	9	8.32	glucose-disease-drug
+Glucose	50000	P-value < 5e-8	All SNPs	9	7.73	glucose-disease-drug
+Glucose	60000	P-value < 5e-8	All SNPs	10	7.87	glucose-disease-drug
+Glucose	70000	P-value < 5e-8	All SNPs	10	7.31	glucose-disease-drug
+Glucose	80000	P-value < 5e-8	All SNPs	10	6.88	glucose-disease-drug
+Glucose	90000	P-value < 5e-8	All SNPs	10	6.55	glucose-disease-drug
+Glucose	100000	P-value < 5e-8	All SNPs	10	6.23	glucose-disease-drug
+Glucose	110000	P-value < 5e-8	All SNPs	10	6.05	glucose-disease-drug
+Glucose	120000	P-value < 5e-8	All SNPs	10	5.85	glucose-disease-drug
+Glucose	130000	P-value < 5e-8	All SNPs	10	5.6	glucose-disease-drug
+Glucose	140000	P-value < 5e-8	All SNPs	10	5.34	glucose-disease-drug
+Glucose	150000	P-value < 5e-8	All SNPs	10	5.1	glucose-disease-drug
+Glucose	160000	P-value < 5e-8	All SNPs	10	4.9	glucose-disease-drug
+Glucose	170000	P-value < 5e-8	All SNPs	10	4.7	glucose-disease-drug
+Glucose	180000	P-value < 5e-8	All SNPs	10	4.57	glucose-disease-drug
+Glucose	190000	P-value < 5e-8	All SNPs	10	4.43	glucose-disease-drug
+Glucose	200000	P-value < 5e-8	All SNPs	11	4.71	glucose-disease-drug
+Glucose	210000	P-value < 5e-8	All SNPs	11	4.59	glucose-disease-drug
+Glucose	220000	P-value < 5e-8	All SNPs	11	4.41	glucose-disease-drug
+Glucose	230000	P-value < 5e-8	All SNPs	11	4.3	glucose-disease-drug
+Glucose	240000	P-value < 5e-8	All SNPs	11	4.15	glucose-disease-drug
+Glucose	250000	P-value < 5e-8	All SNPs	11	4.03	glucose-disease-drug
+Glucose	260000	P-value < 5e-8	All SNPs	11	3.93	glucose-disease-drug
+Glucose	270000	P-value < 5e-8	All SNPs	11	3.79	glucose-disease-drug
+Glucose	280000	P-value < 5e-8	All SNPs	11	3.71	glucose-disease-drug
+Glucose	290000	P-value < 5e-8	All SNPs	11	3.62	glucose-disease-drug
+Glucose	300000	P-value < 5e-8	All SNPs	11	3.51	glucose-disease-drug
+Glucose	310000	P-value < 5e-8	All SNPs	11	3.45	glucose-disease-drug
+Glucose	320000	P-value < 5e-8	All SNPs	11	3.35	glucose-disease-drug
+Glucose	330000	P-value < 5e-8	All SNPs	11	3.26	glucose-disease-drug
+Glucose	340000	P-value < 5e-8	All SNPs	11	3.19	glucose-disease-drug
+Glucose	350000	P-value < 5e-8	All SNPs	11	3.13	glucose-disease-drug
+Glucose	360000	P-value < 5e-8	All SNPs	11	3.05	glucose-disease-drug
+Glucose	370000	P-value < 5e-8	All SNPs	11	2.99	glucose-disease-drug
+Glucose	380000	P-value < 5e-8	All SNPs	11	2.93	glucose-disease-drug
+Glucose	390000	P-value < 5e-8	All SNPs	11	2.88	glucose-disease-drug
+Glucose	400000	P-value < 5e-8	All SNPs	11	2.83	glucose-disease-drug
+Glucose	410000	P-value < 5e-8	All SNPs	11	2.78	glucose-disease-drug
+Glucose	420000	P-value < 5e-8	All SNPs	11	2.72	glucose-disease-drug
+Glucose	430000	P-value < 5e-8	All SNPs	12	2.91	glucose-disease-drug
+Glucose	440000	P-value < 5e-8	All SNPs	12	2.86	glucose-disease-drug
+Glucose	450000	P-value < 5e-8	All SNPs	13	3.05	glucose-disease-drug
+Glucose	460000	P-value < 5e-8	All SNPs	13	3	glucose-disease-drug
+Glucose	470000	P-value < 5e-8	All SNPs	13	2.95	glucose-disease-drug
+Glucose	480000	P-value < 5e-8	All SNPs	15	3.34	glucose-disease-drug
+Glucose	490000	P-value < 5e-8	All SNPs	15	3.29	glucose-disease-drug
+Glucose	500000	P-value < 5e-8	All SNPs	15	3.25	glucose-disease-drug
+Glucose	10000	log10 BF > 2	All SNPs	5	20.65	glucose-disease-drug
+Glucose	20000	log10 BF > 2	All SNPs	7	18.17	glucose-disease-drug
+Glucose	30000	log10 BF > 2	All SNPs	8	16.33	glucose-disease-drug
+Glucose	40000	log10 BF > 2	All SNPs	9	15.57	glucose-disease-drug
+Glucose	50000	log10 BF > 2	All SNPs	9	12.83	glucose-disease-drug
+Glucose	60000	log10 BF > 2	All SNPs	10	12.57	glucose-disease-drug
+Glucose	70000	log10 BF > 2	All SNPs	10	11.01	glucose-disease-drug
+Glucose	80000	log10 BF > 2	All SNPs	10	9.88	glucose-disease-drug
+Glucose	90000	log10 BF > 2	All SNPs	10	9.22	glucose-disease-drug
+Glucose	100000	log10 BF > 2	All SNPs	10	8.63	glucose-disease-drug
+Glucose	110000	log10 BF > 2	All SNPs	10	7.99	glucose-disease-drug
+Glucose	120000	log10 BF > 2	All SNPs	10	7.67	glucose-disease-drug
+Glucose	130000	log10 BF > 2	All SNPs	10	7.25	glucose-disease-drug
+Glucose	140000	log10 BF > 2	All SNPs	10	6.82	glucose-disease-drug
+Glucose	150000	log10 BF > 2	All SNPs	10	6.51	glucose-disease-drug
+Glucose	160000	log10 BF > 2	All SNPs	10	6.3	glucose-disease-drug
+Glucose	170000	log10 BF > 2	All SNPs	10	6.06	glucose-disease-drug
+Glucose	180000	log10 BF > 2	All SNPs	10	5.9	glucose-disease-drug
+Glucose	190000	log10 BF > 2	All SNPs	10	5.62	glucose-disease-drug
+Glucose	200000	log10 BF > 2	All SNPs	10	5.49	glucose-disease-drug
+Glucose	210000	log10 BF > 2	All SNPs	11	5.9	glucose-disease-drug
+Glucose	220000	log10 BF > 2	All SNPs	11	5.66	glucose-disease-drug
+Glucose	230000	log10 BF > 2	All SNPs	11	5.51	glucose-disease-drug
+Glucose	240000	log10 BF > 2	All SNPs	11	5.32	glucose-disease-drug
+Glucose	250000	log10 BF > 2	All SNPs	11	5.07	glucose-disease-drug
+Glucose	260000	log10 BF > 2	All SNPs	11	4.93	glucose-disease-drug
+Glucose	270000	log10 BF > 2	All SNPs	11	4.77	glucose-disease-drug
+Glucose	280000	log10 BF > 2	All SNPs	11	4.66	glucose-disease-drug
+Glucose	290000	log10 BF > 2	All SNPs	11	4.52	glucose-disease-drug
+Glucose	300000	log10 BF > 2	All SNPs	11	4.4	glucose-disease-drug
+Glucose	310000	log10 BF > 2	All SNPs	12	4.7	glucose-disease-drug
+Glucose	320000	log10 BF > 2	All SNPs	12	4.57	glucose-disease-drug
+Glucose	330000	log10 BF > 2	All SNPs	12	4.44	glucose-disease-drug
+Glucose	340000	log10 BF > 2	All SNPs	12	4.33	glucose-disease-drug
+Glucose	350000	log10 BF > 2	All SNPs	12	4.25	glucose-disease-drug
+Glucose	360000	log10 BF > 2	All SNPs	12	4.15	glucose-disease-drug
+Glucose	370000	log10 BF > 2	All SNPs	12	4.06	glucose-disease-drug
+Glucose	380000	log10 BF > 2	All SNPs	12	4	glucose-disease-drug
+Glucose	390000	log10 BF > 2	All SNPs	12	3.91	glucose-disease-drug
+Glucose	400000	log10 BF > 2	All SNPs	12	3.84	glucose-disease-drug
+Glucose	410000	log10 BF > 2	All SNPs	12	3.75	glucose-disease-drug
+Glucose	420000	log10 BF > 2	All SNPs	12	3.68	glucose-disease-drug
+Glucose	430000	log10 BF > 2	All SNPs	12	3.61	glucose-disease-drug
+Glucose	440000	log10 BF > 2	All SNPs	12	3.53	glucose-disease-drug
+Glucose	450000	log10 BF > 2	All SNPs	13	3.76	glucose-disease-drug
+Glucose	460000	log10 BF > 2	All SNPs	13	3.7	glucose-disease-drug
+Glucose	470000	log10 BF > 2	All SNPs	13	3.63	glucose-disease-drug
+Glucose	480000	log10 BF > 2	All SNPs	13	3.57	glucose-disease-drug
+Glucose	490000	log10 BF > 2	All SNPs	13	3.52	glucose-disease-drug
+Glucose	500000	log10 BF > 2	All SNPs	13	3.46	glucose-disease-drug
+Glucose	10000	log10 BF > 2	DHS SNPs (Trait-Specific)	4	58.14	glucose-disease-drug
+Glucose	20000	log10 BF > 2	DHS SNPs (Trait-Specific)	4	33.8	glucose-disease-drug
+Glucose	30000	log10 BF > 2	DHS SNPs (Trait-Specific)	5	30.8	glucose-disease-drug
+Glucose	40000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	34.85	glucose-disease-drug
+Glucose	50000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	31.8	glucose-disease-drug
+Glucose	60000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	27.65	glucose-disease-drug
+Glucose	70000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	23.34	glucose-disease-drug
+Glucose	80000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	21.2	glucose-disease-drug
+Glucose	90000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	19.42	glucose-disease-drug
+Glucose	100000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	17.67	glucose-disease-drug
+Glucose	110000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	16	glucose-disease-drug
+Glucose	120000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	15.32	glucose-disease-drug
+Glucose	130000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	14.54	glucose-disease-drug
+Glucose	140000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	13.53	glucose-disease-drug
+Glucose	150000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	12.91	glucose-disease-drug
+Glucose	160000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	12.29	glucose-disease-drug
+Glucose	170000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	11.78	glucose-disease-drug
+Glucose	180000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	11.41	glucose-disease-drug
+Glucose	190000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	10.64	glucose-disease-drug
+Glucose	200000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	10.18	glucose-disease-drug
+Glucose	210000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	9.82	glucose-disease-drug
+Glucose	220000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	9.25	glucose-disease-drug
+Glucose	230000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	8.89	glucose-disease-drug
+Glucose	240000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	8.54	glucose-disease-drug
+Glucose	250000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	8.08	glucose-disease-drug
+Glucose	260000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	7.85	glucose-disease-drug
+Glucose	270000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	7.57	glucose-disease-drug
+Glucose	280000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	7.27	glucose-disease-drug
+Glucose	290000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	7.15	glucose-disease-drug
+Glucose	300000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	6.95	glucose-disease-drug
+Glucose	310000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	6.75	glucose-disease-drug
+Glucose	320000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	6.56	glucose-disease-drug
+Glucose	330000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	6.28	glucose-disease-drug
+Glucose	340000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	6.13	glucose-disease-drug
+Glucose	350000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	5.89	glucose-disease-drug
+Glucose	360000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	5.74	glucose-disease-drug
+Glucose	370000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	5.67	glucose-disease-drug
+Glucose	380000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	5.51	glucose-disease-drug
+Glucose	390000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	5.34	glucose-disease-drug
+Glucose	400000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	5.22	glucose-disease-drug
+Glucose	410000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	5.09	glucose-disease-drug
+Glucose	420000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	4.96	glucose-disease-drug
+Glucose	430000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	4.85	glucose-disease-drug
+Glucose	440000	log10 BF > 2	DHS SNPs (Trait-Specific)	7	4.79	glucose-disease-drug
+Glucose	450000	log10 BF > 2	DHS SNPs (Trait-Specific)	8	5.34	glucose-disease-drug
+Glucose	460000	log10 BF > 2	DHS SNPs (Trait-Specific)	8	5.26	glucose-disease-drug
+Glucose	470000	log10 BF > 2	DHS SNPs (Trait-Specific)	9	5.77	glucose-disease-drug
+Glucose	480000	log10 BF > 2	DHS SNPs (Trait-Specific)	9	5.71	glucose-disease-drug
+Glucose	490000	log10 BF > 2	DHS SNPs (Trait-Specific)	9	5.63	glucose-disease-drug
+Glucose	500000	log10 BF > 2	DHS SNPs (Trait-Specific)	9	5.51	glucose-disease-drug
