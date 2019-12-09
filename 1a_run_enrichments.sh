@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#set -e -o pipefail
 
 module load bedops/2.4.37
 
