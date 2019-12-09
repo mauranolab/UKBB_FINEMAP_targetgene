@@ -1,5 +1,5 @@
-0a_runall.sh
-0b_file_integration.sh
-trait_genes_key.selected.txt
-trait_genes_key.txt
-intermediate_files/
+*0a_runall.sh
+*0b_file_integration.sh
+*trait_genes_key.selected.txt
+*trait_genes_key.txt
+*intermediate_files/*
