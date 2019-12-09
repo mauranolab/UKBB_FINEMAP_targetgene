@@ -17,11 +17,12 @@ snp_set=$4              # String. Describes "trait_snps". Either "All_SNPs", "DH
 pc_gene_list=$5         # txt file. One column of gene IDs
 pc_gene_list_name=$6    # String.
 all_genes=$7            # bed/starch file with gene ID in column 4. Contains all genes in transcript model
+intermediate_files=$8   # Directory name for output files
 
 
 
-mkdir -p "intermediate_files"
-outfile="intermediate_files/${trait_name}-${pc_gene_list_name}.${sig_metric}_${snp_set}.txt" # 11 columns (tab delimited)
+mkdir -p "$intermediate_files"
+outfile="$intermediate_files/${trait_name}-${pc_gene_list_name}.${sig_metric}_${snp_set}.txt" # 11 columns (tab delimited)
 all_genes_list=$TMPDIR/${trait_name}_${pc_gene_list_name}.all_genes_list.txt # 1 column: Gene name
 targeted_genes=$TMPDIR/${trait_name}_${pc_gene_list_name}.targeted_genes.txt # 2 columns: Gene name, value (tab delimited)
 
@@ -32,7 +33,7 @@ function target_genes {
 
     # Returns two columns: 1. gene name and 2. distance to nearest SNP
 
-    closest-features --closest --delim "\t" --dist $genes $snps | \
+    closest-features --closest --delim "\t" --dist --header $genes $snps | \
     awk -F"\t" 'BEGIN{OFS="\t"}{print $1,$2,$3,$4,$NF}' | \
     sort-bed - | uniq | \
     awk -F"\t" 'function abs(v) {return v < 0 ? -v : v} BEGIN{OFS="\t"}{if($NF!="NA"){print $4,abs($NF)}}' | \
@@ -61,6 +62,7 @@ elif [ $sig_metric == "log10_Bayes_factor" ];then
     sig_cutoff=2
     min=-10
 
+
     unstarch $trait_snps | \
     grep -v "#" | \
     awk -F"\t" -v min=$min 'BEGIN{OFS="\t"}{
@@ -74,6 +76,8 @@ else
     exit 1
 fi
 
+
+head $targeted_genes
 
 
 # Make input to enrichment script

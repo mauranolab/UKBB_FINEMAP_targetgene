@@ -40,6 +40,7 @@ process_infile<-function(all_enrichments, pc_genes_key){
 	
 	select_enrichments_melt$gene_set<-as.character(select_enrichments_melt$gene_set)
 	select_enrichments_melt$gene_set<-sub("\\(","\n\\(",select_enrichments_melt$gene_set) 
+	select_enrichments_melt$annotation<-factor(x=select_enrichments_melt$annotation, levels = c("Disease + Drug","Expression"), ordered = T)
 	
 	
 	infile_df<-merge(infile_df,select_enrichments_melt, by=c("Trait","gene_set"),all=F)
@@ -57,6 +58,9 @@ process_infile<-function(all_enrichments, pc_genes_key){
 	infile_df$Trait<-gsub("GLUCOSE","Glucose",infile_df$Trait)
 	infile_df$Trait<-gsub("CALCIUM","Calcium",infile_df$Trait)
 
+	trait_order<-c("Height","eBMD","RBC Count","Type 2 Diabetes","Glucose","Triglycerides","LDL Cholesterol","Calcium","Hypothyroidism","Blood Pressure\n(Systolic)","Blood Pressure\n(Diastolic)","Bilirubin (D)")
+	infile_df$Trait<-factor(infile_df$Trait,levels = trait_order, ordered = T)
+	
 	return(infile_df)
 
 }
@@ -66,9 +70,7 @@ process_infile<-function(all_enrichments, pc_genes_key){
 ################################
 # Absolute distance effect
 
-plot_df<-process_infile("../data/all_enrichments.db.txt","trait_genes_key.selected.txt")
-
-head(plot_df)
+plot_df<-process_infile("../data/all_enrichments.db.txt","trait_genes_key.txt")
 
 gg_color_hue <- function(n) {
 	hues = seq(15, 375, length = n + 1)
@@ -94,9 +96,7 @@ colors[which(plot_df$Trait=="Glucose")]<-color_vec[11]
 names(colors)<-plot_df$Trait
 
 
-plot_df$`Distance (Kbp)`<-plot_df$distance/1000
-
-p<-ggplot(plot_df, aes(color = Trait,x = `Distance (Kbp)`, y = Enrichment)) +
+p<-ggplot(plot_df, aes(color = Trait,x = distance/1000, y = Enrichment)) +
 	geom_line() +
 	geom_hline(yintercept = 1, color="grey", linetype = "dashed") +
 	theme(

@@ -1,0 +1,13 @@
+Trait	Expression	Disease + Drug
+eBMD	NA	ebmd-disease-drug
+HEIGHTz	NA	height-disease-drug
+DIASTOLIC	NA	dbp-disease-drug
+SYSTOLIC	NA	sbp-disease-drug
+T2Dbmiadj	pancreas_scRNA-seq	t2d-disease-drug
+LDL_CHOLESTEROL	NA	ldl-disease-drug
+TRIGLYCERIDES	TG_expression	tg-disease-drug
+LOW_TSH	LOW_TSH_expression	lowtsh-disease-drug
+CALCIUM	NA	calcium-disease-drug
+GLUCOSE	Glucose_expression	glucose-disease-drug
+DBILIRUBIN	Bilirubin_D_expression	NA
+RED_COUNT	NA	rbc-disease-drug
