@@ -1,3 +1,4 @@
 *0a_runall.sh
 *0b_file_integration.sh
 data/intermediate_files/
+.gitignore

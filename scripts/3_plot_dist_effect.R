@@ -72,31 +72,17 @@ process_infile<-function(all_enrichments, pc_genes_key){
 
 plot_df<-process_infile("../data/all_enrichments.db.txt","trait_genes_key.txt")
 
+## Line colors
 gg_color_hue <- function(n) {
 	hues = seq(15, 375, length = n + 1)
 	hcl(h = hues, l = 65, c = 100)[1:n]
 }
 
-color_vec<-gg_color_hue(11)
+color_vec<-gg_color_hue(7)
 
-colors<-rep(NA, times=length(plot_df$Trait))
-colors[which(plot_df$Trait=="Bilirubin (D)")]<-color_vec[1]
-colors[which(plot_df$Trait=="Calcium")]<-color_vec[2]
-colors[which(plot_df$Trait=="eBMD")]<-color_vec[3]
-colors[which(plot_df$Trait=="Blood Pressure\n(Systolic)")]<-color_vec[4]
-colors[which(plot_df$Trait=="Blood Pressure\n(Diastolic)")]<-color_vec[4]
-colors[which(plot_df$Trait=="Height")]<-color_vec[5]
-colors[which(plot_df$Trait=="Hypothyroidism")]<-color_vec[6]
-colors[which(plot_df$Trait=="RBC Count")]<-color_vec[7]
-colors[which(plot_df$Trait=="Type 2 Diabetes")]<-color_vec[8]
-colors[which(plot_df$Trait=="LDL Cholesterol")]<-color_vec[9]
-colors[which(plot_df$Trait=="Triglycerides")]<-color_vec[10]
-colors[which(plot_df$Trait=="Glucose")]<-color_vec[11]
+plot_df<-plot_df[which(plot_df$distance>=25000),]
 
-names(colors)<-plot_df$Trait
-
-
-p<-ggplot(plot_df, aes(color = Trait,x = distance/1000, y = Enrichment)) +
+p<-ggplot(plot_df, aes(color = Trait,x = distance/1000, y = Enrichment, linetype=Trait)) +
 	geom_line() +
 	geom_hline(yintercept = 1, color="grey", linetype = "dashed") +
 	theme(
@@ -111,8 +97,16 @@ p<-ggplot(plot_df, aes(color = Trait,x = distance/1000, y = Enrichment)) +
 	) +
 	facet_grid(cols = vars(col_facet), rows = vars(annotation), scales = "free_y") +
 	labs(x="Distance (Kbp)", y = "Fold enrichment") +
-	scale_color_manual(name = "Trait", values = colors, aesthetics = c("colour"), guide=guide_legend(ncol=1)) +
-	coord_cartesian(xlim = c(0,250))
+	scale_color_manual(name = "Trait", 
+										 values = c("Height"=color_vec[2],"eBMD"="#b03131","RBC Count"=color_vec[7],"Type 2 Diabetes"="#b03131","Glucose"=color_vec[7],"Triglycerides"=color_vec[6],"LDL Cholesterol"="#46b031","Calcium"=color_vec[2],"Hypothyroidism"="#46b031","Blood Pressure\n(Systolic)"=color_vec[5],"Blood Pressure\n(Diastolic)"=color_vec[5],"Bilirubin (D)"=color_vec[6]), 
+										 aesthetics = c("colour"), guide=guide_legend(ncol=1)) +
+	scale_linetype_manual(name = "Trait", 
+												values = c("Height"="solid","eBMD"="dashed","RBC Count"="dashed","Type 2 Diabetes"="solid","Glucose"="solid","Triglycerides"="solid","LDL Cholesterol"="solid","Calcium"="dashed","Hypothyroidism"="dashed","Blood Pressure\n(Systolic)"="dashed","Blood Pressure\n(Diastolic)"="solid","Bilirubin (D)"="dashed")
+	) +
+	scale_y_continuous(expand = c(0,0)) +
+	scale_x_continuous(breaks = c(25,seq(50,250,50))) +
+	expand_limits(y=1) +
+	coord_cartesian(xlim = c(25,250))
 
 pdf(paste0(outdir,"/distance_effect.pdf"), height = 4, width = 8)
 p
