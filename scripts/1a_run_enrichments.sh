@@ -11,11 +11,11 @@ alias closest-features='closest-features --header'
 ## Parameters
 trait_snps=$1           # bed/starch file with p-val or log10 bf in column 5
                         # trait_snps file should already be filtered to remove MHC and Missense SNPs
-trait_name=$2           # String. Corresponds to names in trait_genes_key.txt
+trait_name=$2           # String. Corresponds to column 1 in trait_genes_key.txt
 sig_metric=$3           # String. Describes column 5 of "trait_snps". Either "-log10_P-value" or "log10_Bayes_factor"
 snp_set=$4              # String. Describes "trait_snps". Either "All_SNPs", "DHS_SNPs", or "Trait-Specific_DHS_SNPs"
 pc_gene_list=$5         # txt file. One column of gene IDs
-pc_gene_list_name=$6    # String. Corresponds to names in trait_genes_key.txt
+pc_gene_list_name=$6    # String. Corresponds to columns 2/3 in trait_genes_key.txt
 all_genes=$7            # bed/starch file with gene ID in column 4. Contains all genes in transcript model
 intermediate_files=$8   # Directory name for output files
 

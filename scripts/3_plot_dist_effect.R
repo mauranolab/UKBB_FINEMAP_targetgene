@@ -2,9 +2,9 @@
 
 library(ggplot2)
 theme_set(theme_classic())
-library(data.table)
-library(dplyr)
-
+suppressMessages(library(data.table))
+suppressMessages(library(dplyr))
+								 
 outdir<-"../plots"
 system(paste0("mkdir -p ", outdir))
 
