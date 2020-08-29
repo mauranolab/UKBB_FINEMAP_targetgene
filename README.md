@@ -33,3 +33,5 @@ Produces file "../data/all_enrichments.db.txt"
 **Run 3_plot_dist_effect.R**
 Reads "../data/all_enrichments.db.txt" to produce plot at "../plots/distance_effect.pdf"
 
+## Reference
+https://www.biorxiv.org/content/10.1101/2020.06.28.171561v1.abstract
